@@ -1,0 +1,30 @@
+---
+title: "New ggplot2 stuff"
+author: "GSwtihR"
+date: "13/02/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## New Stuff in ggplot 2
+
+This is part 1 of an occaisional series we will publish updating/augmenting several pieces of the graphing detail in Getting Started with R.
+
+### Bar Charts - the bane of our existence just got a bit easier
+We don't advocate using bar charts very often
+
+Presenting contingency table data is one time it seems OK.
+
+geom_bar(stat='identity') == don't do nowt, do what I told you
+
+NOW
+
+geom_col()
+
+IF you are gonna use em...
+
+geom_col()
+geom_errorbar()
