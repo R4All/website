@@ -1,7 +1,7 @@
 ---
 title: "Hook your students"
 author: "Owen Petchey"
-date: 2017-07-13T13:09:13-06:00
+date: 2017-07-13
 slug: hook-your-students
 tags: []
 categories:

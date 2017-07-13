@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on The R4All website</title>
+    <link>/categories/teaching/index.xml</link>
+    <description>Recent content in Teaching on The R4All website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hook your students</title>
+      <link>/2017/07/13/hook-your-students/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/07/13/hook-your-students/</guid>
+      <description>
+
+&lt;h1 id=&#34;hook-your-data-analysis-students&#34;&gt;Hook your data analysis students&lt;/h1&gt;
+
+&lt;p&gt;Three hundred students await the opening lecture of their first undergraduate course about data analysis. Some are eager to get going, others are eager to get out of class. Some are uncertain they can succeed, others are hoping for a challenge. For all, first impressions count &amp;ndash; whatever happens in this first lecture will shape their experience of the whole course. It better be bloody good.&lt;/p&gt;
+
+&lt;p&gt;Faced with this situation (more or less), I decided to give a live data analysis demonstration. Do the whole process, from question to answer, including data collection. Show them the whole process, and refer back to it again and again during the course. The challenge is to solve problems with data. That is what the course is all about. I also decided we&amp;rsquo;d analyse something about them, figuring (hoping) this would get them interested and engaged. I also knew I had about 1 hour, and it absolutely had to work.&lt;/p&gt;
+
+&lt;p&gt;I and the other staff on the course did lots of things that, I believe, contributed to the above average student evaluations for the course (including greater than average workload), 97% of the class passing the final exam, and us all having a great time. But I&amp;rsquo;m pretty sure the live data demo in the first class really helped. If you want the details, read on. If not, just remember, you have one chance to hook your students. Make it happen.&lt;/p&gt;
+
+&lt;p&gt;The details: We tackled the question of whether reaction times differed between genders. Students used their laptops, tablets, phones, to measure their reaction time (there are lots of web pages for this). They entered their results into a google form in which entries were automatically controlled (e.g. only numbers between 0 and 1000). The google form made a google sheet that we read directly into R / RStudio. We visualised the data and discussed at some length, already deciding on the answer to the question. We confirmed that answer with a statistical test. We made a nice graph to communicate the results. We critiqued &amp;ndash; e.g. what was our sample and what was our population? We &lt;em&gt;did not&lt;/em&gt; discuss the R code, but they did see it working. Obviously I tested this, a lot, before that first class. It worked smoothly, and we&amp;rsquo;ll do something very similar next year &amp;ndash; I&amp;rsquo;m looking for things to quickly measure other than reaction times; please let me know if you&amp;rsquo;ve any ideas.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
