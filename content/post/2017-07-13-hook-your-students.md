@@ -1,3 +1,14 @@
+---
+title: "Hook your students"
+author: "Owen Petchey"
+date: 2017-07-13T13:09:13-06:00
+slug: hook-your-students
+tags: []
+categories:
+- teaching
+- R
+---
+
 # Hook your data analysis students
 
 Three hundred students await the opening lecture of their first undergraduate course about data analysis. Some are eager to get going, others are eager to get out of class. Some are uncertain they can succeed, others are hoping for a challenge. For all, first impressions count -- whatever happens in this first lecture will shape their experience of the whole course. It better be bloody good.
