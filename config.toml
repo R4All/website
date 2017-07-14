@@ -14,11 +14,8 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/r4all"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/gswithr"
+    name = "The Book"
+    url = "/the_book/"
 
 [params]
     description = "A website built through Hugo and blogdown."

@@ -649,6 +649,16 @@ legend(&amp;#39;topleft&amp;#39;, col=c(&amp;#39;brown&amp;#39;,&amp;#39;green&a
     </item>
     
     <item>
+      <title>Getting Started with R, Second Edition</title>
+      <link>/the_book/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/the_book/</guid>
+      <description>&lt;p&gt;A page about the book.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hello R Markdown</title>
       <link>/2015/07/23/hello-r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
