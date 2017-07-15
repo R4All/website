@@ -2,52 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/2017/07/13/hook-your-students/</loc>
+    <loc>/cont/pages/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cont/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/welcome/what-is-this-hugo-theme/</loc>
+  </url>
+  
+  <url>
+    <loc>/contributing/</loc>
+    <lastmod>2016-04-09T16:58:30+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/welcome/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>/cont/markdown/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/welcome/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>/welcome/configuration/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cont/shortcodes/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cont/archetypes/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts_not_working/hook-your-students/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/07/13/project-or-script/</loc>
+    <loc>/posts_not_working/project-or-script/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/07/13/geom-col-versus-geom-bar/</loc>
+    <loc>/posts_not_working/geom-col-versus-geom-bar/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/07/13/working-with-dinosaurs/</loc>
+    <loc>/posts_not_working/working-with-dinosaurs/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2016/12/30/a-plain-markdown-post/</loc>
+    <loc>/posts_not_working/2016-12-30-hello-markdown/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/another_page/</loc>
-    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/2015/07/23/hello-r-markdown/</loc>
+    <loc>/posts_not_working/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/2015/01/01/lorem-ipsum/</loc>
+    <loc>/posts_not_working/2015-01-01-lorem-ipsum/</loc>
     <lastmod>2015-01-01T13:09:13-06:00</lastmod>
   </url>
   
@@ -57,13 +88,18 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>/posts_not_working/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -95,6 +131,11 @@
     <loc>/categories/teaching/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/welcome/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
 </urlset>

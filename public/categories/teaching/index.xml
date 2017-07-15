@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teaching on The R4All website</title>
+    <title>Teaching on Hugo Learn Theme</title>
     <link>/categories/teaching/index.xml</link>
-    <description>Recent content in Teaching on The R4All website</description>
+    <description>Recent content in Teaching on Hugo Learn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hook your students</title>
-      <link>/2017/07/13/hook-your-students/</link>
+      <link>/posts_not_working/hook-your-students/</link>
       <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/07/13/hook-your-students/</guid>
+      <guid>/posts_not_working/hook-your-students/</guid>
       <description>
 
 &lt;h1 id=&#34;hook-your-data-analysis-students&#34;&gt;Hook your data analysis students&lt;/h1&gt;
