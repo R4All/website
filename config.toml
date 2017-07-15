@@ -1,8 +1,26 @@
 baseurl = "https://matcornic.github.io/hugo-learn-doc"
 languageCode = "en-us"
+<<<<<<< HEAD
 title = "Hugo Learn Theme"
 theme = "hugo-theme-learn"
 MetaDataFormat = "yaml"
+=======
+title = "The R4All website"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "The Book"
+    url = "/the_book/"
+>>>>>>> origin/sources
 
 [params]
   editURL = "https://github.com/matcornic/hugo-learn-doc/edit/master/content/"

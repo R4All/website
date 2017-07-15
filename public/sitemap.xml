@@ -68,8 +68,18 @@
   </url>
   
   <url>
+<<<<<<< HEAD
     <loc>/posts_not_working/2016-12-30-hello-markdown/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
+=======
+    <loc>/the_book/</loc>
+    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
+>>>>>>> origin/sources
   </url>
   
   <url>
