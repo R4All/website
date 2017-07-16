@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Content on Hugo Learn Theme</title>
-    <link>/cont/index.xml</link>
+    <link>https://matcornic.github.io/hugo-learn-doc/cont/index.xml</link>
     <description>Recent content in Content on Hugo Learn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
-    <atom:link href="/cont/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://matcornic.github.io/hugo-learn-doc/cont/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Pages</title>
-      <link>/cont/pages/</link>
+      <link>https://matcornic.github.io/hugo-learn-doc/cont/pages/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>/cont/pages/</guid>
+      <guid>https://matcornic.github.io/hugo-learn-doc/cont/pages/</guid>
       <description>
 
 &lt;p&gt;In &lt;strong&gt;Hugo&lt;/strong&gt;, pages are the core of your site. Once it is configure, pages are definitely the added value to your documentation site.&lt;/p&gt;
@@ -83,7 +83,7 @@ This current documentation has been statically generated with Hugo with a simple
 
 &lt;p&gt;To tell &lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; to consider a page as a chapter, just the name of your file as &lt;code&gt;_index.md&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; provides &lt;a href=&#34;/cont/archetypes&#34;&gt;archetypes&lt;/a&gt; to help you create this kind of pages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; provides &lt;a href=&#34;https://matcornic.github.io/hugo-learn-doc/cont/archetypes&#34;&gt;archetypes&lt;/a&gt; to help you create this kind of pages.&lt;/p&gt;
 
 &lt;h2 id=&#34;front-matter&#34;&gt;Front Matter&lt;/h2&gt;
 
@@ -121,10 +121,10 @@ icon: &amp;quot;&amp;quot;
     
     <item>
       <title>Markdown syntax</title>
-      <link>/cont/markdown/</link>
+      <link>https://matcornic.github.io/hugo-learn-doc/cont/markdown/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>/cont/markdown/</guid>
+      <guid>https://matcornic.github.io/hugo-learn-doc/cont/markdown/</guid>
       <description>
 
 &lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;This page is a shameful copy of the great &lt;a href=&#34;http://learn.getgrav.org/content/markdown&#34;&gt;Grav original page&lt;/a&gt;.
@@ -799,10 +799,10 @@ Content for chapter one.
     
     <item>
       <title>Shortcodes</title>
-      <link>/cont/shortcodes/</link>
+      <link>https://matcornic.github.io/hugo-learn-doc/cont/shortcodes/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>/cont/shortcodes/</guid>
+      <guid>https://matcornic.github.io/hugo-learn-doc/cont/shortcodes/</guid>
       <description>
 
 &lt;p&gt;Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.&lt;/p&gt;
@@ -915,15 +915,15 @@ An warning disclaimer
     
     <item>
       <title>Archetypes</title>
-      <link>/cont/archetypes/</link>
+      <link>https://matcornic.github.io/hugo-learn-doc/cont/archetypes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/cont/archetypes/</guid>
+      <guid>https://matcornic.github.io/hugo-learn-doc/cont/archetypes/</guid>
       <description>
 
 &lt;p&gt;Using the command: &lt;code&gt;hugo new [relative new content path]&lt;/code&gt;, you can start a content file with the date and title automatically set. While this is a welcome feature, active writers need more : &lt;a href=&#34;https://gohugo.io/content/archetypes/&#34;&gt;archetypes&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;It is pre-configured skeleton pages with default front matter. Please refer to the &lt;a href=&#34;/cont/pages/#types&#34;&gt;documentation&lt;/a&gt; for types of page to understand the differences.&lt;/p&gt;
+&lt;p&gt;It is pre-configured skeleton pages with default front matter. Please refer to the &lt;a href=&#34;https://matcornic.github.io/hugo-learn-doc/cont/pages/#types&#34;&gt;documentation&lt;/a&gt; for types of page to understand the differences.&lt;/p&gt;
 
 &lt;h2 id=&#34;chapter&#34;&gt;Chapter&lt;/h2&gt;
 

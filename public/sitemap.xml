@@ -2,149 +2,81 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>/cont/pages/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/cont/pages/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/cont/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/cont/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/welcome/what-is-this-hugo-theme/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/basics/what-is-this-hugo-theme/</loc>
   </url>
   
   <url>
-    <loc>/contributing/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/welcome/what-is-this-hugo-theme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matcornic.github.io/hugo-learn-doc/contributing/</loc>
     <lastmod>2016-04-09T16:58:30+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/welcome/requirements/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/basics/requirements/</loc>
   </url>
   
   <url>
-    <loc>/cont/markdown/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/welcome/requirements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matcornic.github.io/hugo-learn-doc/cont/markdown/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/welcome/installation/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/basics/installation/</loc>
   </url>
   
   <url>
-    <loc>/welcome/configuration/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/welcome/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matcornic.github.io/hugo-learn-doc/basics/configuration/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/cont/shortcodes/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/welcome/configuration/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/cont/archetypes/</loc>
-  </url>
-  
-  <url>
-    <loc>/posts_not_working/hook-your-students/</loc>
-    <lastmod>2017-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts_not_working/project-or-script/</loc>
-    <lastmod>2017-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts_not_working/geom-col-versus-geom-bar/</loc>
-    <lastmod>2017-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts_not_working/working-with-dinosaurs/</loc>
-    <lastmod>2017-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-<<<<<<< HEAD
-    <loc>/posts_not_working/2016-12-30-hello-markdown/</loc>
-    <lastmod>2016-12-30T21:49:57-07:00</lastmod>
-=======
-    <loc>/the_book/</loc>
-    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2016-05-05T21:48:51-07:00</lastmod>
->>>>>>> origin/sources
-  </url>
-  
-  <url>
-    <loc>/posts_not_working/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts_not_working/2015-01-01-lorem-ipsum/</loc>
-    <lastmod>2015-01-01T13:09:13-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/cont/shortcodes/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+    <loc>https://matcornic.github.io/hugo-learn-doc/cont/archetypes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://matcornic.github.io/hugo-learn-doc/basics/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://matcornic.github.io/hugo-learn-doc/</loc>
+    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/posts_not_working/</loc>
-    <lastmod>2017-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2017-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
-    <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/teaching/</loc>
-    <lastmod>2017-07-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/welcome/</loc>
+    <loc>https://matcornic.github.io/hugo-learn-doc/welcome/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
