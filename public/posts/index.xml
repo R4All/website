@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on The R4All Website</title>
+    <link>https://r4all.github.io/website/posts/index.xml</link>
+    <description>Recent content in Posts on The R4All Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://r4all.github.io/website/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Hook your students</title>
+      <link>https://r4all.github.io/website/posts/hook-your-students/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/hook-your-students/</guid>
+      <description>
+
+&lt;h1 id=&#34;hook-your-data-analysis-students&#34;&gt;Hook your data analysis students&lt;/h1&gt;
+
+&lt;p&gt;Three hundred students await the opening lecture of their first undergraduate course about data analysis. Some are eager to get going, others are eager to get out of class. Some are uncertain they can succeed, others are hoping for a challenge. For all, first impressions count &amp;ndash; whatever happens in this first lecture will shape their experience of the whole course. It better be bloody good.&lt;/p&gt;
+
+&lt;p&gt;Faced with this situation (more or less), I decided to give a live data analysis demonstration. Do the whole process, from question to answer, including data collection. Show them the whole process, and refer back to it again and again during the course. The challenge is to solve problems with data. That is what the course is all about. I also decided we&amp;rsquo;d analyse something about them, figuring (hoping) this would get them interested and engaged. I also knew I had about 1 hour, and it absolutely had to work.&lt;/p&gt;
+
+&lt;p&gt;I and the other staff on the course did lots of things that, I believe, contributed to the above average student evaluations for the course (including greater than average workload), 97% of the class passing the final exam, and us all having a great time. But I&amp;rsquo;m pretty sure the live data demo in the first class really helped. If you want the details, read on. If not, just remember, you have one chance to hook your students. Make it happen.&lt;/p&gt;
+
+&lt;p&gt;The details: We tackled the question of whether reaction times differed between genders. Students used their laptops, tablets, phones, to measure their reaction time (there are lots of web pages for this). They entered their results into a google form in which entries were automatically controlled (e.g. only numbers between 0 and 1000). The google form made a google sheet that we read directly into R / RStudio. We visualised the data and discussed at some length, already deciding on the answer to the question. We confirmed that answer with a statistical test. We made a nice graph to communicate the results. We critiqued &amp;ndash; e.g. what was our sample and what was our population? We &lt;em&gt;did not&lt;/em&gt; discuss the R code, but they did see it working. Obviously I tested this, a lot, before that first class. It worked smoothly, and we&amp;rsquo;ll do something very similar next year &amp;ndash; I&amp;rsquo;m looking for things to quickly measure other than reaction times; please let me know if you&amp;rsquo;ve any ideas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project or Script?</title>
+      <link>https://r4all.github.io/website/posts/project-or-script/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/project-or-script/</guid>
+      <description>
+
+&lt;h2 id=&#34;projects-versus-scripts&#34;&gt;Projects versus Scripts&lt;/h2&gt;
+
+&lt;p&gt;In a recent twitter interaction with @HadleyWikham and @PadPadPad, there was a discussion about using a script that starts with &lt;code&gt;rm(list=ls())&lt;/code&gt; and &lt;code&gt;setwd()&lt;/code&gt; versus &lt;em&gt;RStudio Projects&lt;/em&gt;.  @HadleyWikham pointed out that using &lt;code&gt;rm(list=ls())&lt;/code&gt; and &lt;code&gt;setwd()&lt;/code&gt; was sub-optimal, not least because &lt;code&gt;rm(list =ls()&lt;/code&gt; does not truly reset R (get rid of datasets, packages and objects associated with one project before starting another) when you start analysing a new dataset, and there are potentially more efficient ways to define the folder (working directory) in which your scripts, data files and other things live on your computer.&lt;/p&gt;
+
+&lt;p&gt;While we agree, totally, this post is about multiple ways to achieve a holy grail of data analysis: whether you can share your analysis pipeline with yourself six months after not looking at it (e.g. post-submission of a manuscript) or colleagues and collaborators, without them (you) getting confused, and without using the wrong data.&lt;/p&gt;
+
+&lt;p&gt;This post lays out details about three ways to achieve similar end objectives - an organised collection of files needed to ensure shareable, repeatable and robust analysis of your data. A major component of this post is thus an attempt to help new users of R understand a bit about how to, and the value of, organising scripts, files that hold data and other notes about your research projects in clear and shareable ways.  It is targeted at new users of R, mostly.&lt;/p&gt;
+
+&lt;h2 id=&#34;some-definitions-to-start&#34;&gt;Some definitions to start&lt;/h2&gt;
+
+&lt;p&gt;Central to everything we talk about below are details about a few semi-technical terms about your computer.  Some are specific to operating systems, but most are not.  Lets get started with some big &amp;lsquo;ideas&amp;rsquo;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;File System&lt;/li&gt;
+&lt;li&gt;Directory Structure&lt;/li&gt;
+&lt;li&gt;Directory Hierarchy&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These three things exist on PCs, Macs and Unix/Linux machines. They are rather technical terms for rather simple things.  All of them are what you see when you use:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Windows Explorer&lt;/li&gt;
+&lt;li&gt;The Macintosh Finder&lt;/li&gt;
+&lt;li&gt;Any of the tools available on Unix and Linux distributions that lets you look at files&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Underneath these technical terms are simple ideas.  You make files on your computer using applications/programmes. These often have sets of 1-3 letters on the end of them, indicating in which application/programme they were made.  Microsoft Word produces files with .doc or .docx. R typically produces files with .R or .r at the end.  These are &lt;em&gt;file extenstions&lt;/em&gt; and give you information about what application/programme you used to make them, and helps your computer determine which application/programme to use when you ask to open them (via double clicking on the icon, for example).&lt;/p&gt;
+
+&lt;p&gt;When you make files on your computer, you store them on the computer&amp;rsquo;s hard drive.  How people do this is highly variable.  Some people make folders with very specific names, and then make folders inside these, and then put files inside these folders.&lt;/p&gt;
+
+&lt;p&gt;If you do this, you make and use a &lt;em&gt;directory hierarchy&lt;/em&gt; which has a &lt;em&gt;path&lt;/em&gt; associated with it.  The &lt;em&gt;path&lt;/em&gt; is the &lt;strong&gt;address&lt;/strong&gt; that the computer, and you, can use to identify where things are. Directory is just another word for a &lt;em&gt;folder&lt;/em&gt; on your computer!&lt;/p&gt;
+
+&lt;p&gt;For example, you may work like this.&lt;/p&gt;
+
+&lt;p&gt;Windows: &lt;code&gt;My Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;Mac: &lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Each of these is a &lt;em&gt;path&lt;/em&gt; and defines a route to the _&lt;em&gt;AnalysisFolder&lt;/em&gt; on your computer.  Each of these words is also formally a &lt;em&gt;directory&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Because there are folders &amp;lsquo;nested&amp;rsquo; inside folders, and ultimately files inside these folders, we call this a `directory hierarchy&amp;rsquo;. It has a &lt;strong&gt;nested structure&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Note that some people don&amp;rsquo;t do this&amp;hellip;  or don&amp;rsquo;t seem to.  If you (or they) store stuff on your (their) desktop (yes, many do), don&amp;rsquo;t forget that the Desktop &lt;em&gt;is&lt;/em&gt; formally a folder too&amp;hellip;. really.  It is.  It also has a path.&lt;/p&gt;
+
+&lt;h2 id=&#34;three-ways-to-achieve-the-same-end&#34;&gt;Three Ways to Achieve the Same End&lt;/h2&gt;
+
+&lt;p&gt;The remainder of this post is about three different ways to achieve the same end.  All of them work.  It allows a bit of flexibility in how you do things.  It also allows people still not using RStudio (gasp) to achieve almost the same ends in two ways!  This can be good if you, like us, work with some hard to change dinosaurs!&lt;/p&gt;
+
+&lt;p&gt;The three ways are labelled as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Script and Data in the SAME FOLDER&lt;/li&gt;
+&lt;li&gt;Script and Data in DIFFERENT FOLDERS (The Relatie Path Method)&lt;/li&gt;
+&lt;li&gt;The RStudio Project.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The first 2 &amp;lsquo;ways&amp;rsquo; are agnostic to whether you are using RStudio.  The third, obviously&amp;hellip;. requires RStudio!&lt;/p&gt;
+
+&lt;h2 id=&#34;method-1-script-and-data-in-the-same-folder&#34;&gt;METHOD 1: Script and Data in the SAME FOLDER&lt;/h2&gt;
+
+&lt;p&gt;Here we introduce what many may consider the &amp;lsquo;old skool&amp;rsquo; method.  It&amp;rsquo;s the way we used to work before RStudio, and before we got our heads screwed on straight, and before Windows and Mac and Linux distributions of R made the description of directory hierarchy independent of the direction of the &lt;code&gt;/&lt;/code&gt; (can you imagine!).&lt;/p&gt;
+
+&lt;h4 id=&#34;organising-principles-some-best-practice&#34;&gt;Organising Principles (some best practice)&lt;/h4&gt;
+
+&lt;p&gt;Over the years we have been using and teaching R, it has become clear to us that putting the script you use for an analysis, and the data you are analysing (e.g. the .csv file we recommend using), in the same folder, can be a useful thing.&lt;/p&gt;
+
+&lt;p&gt;There are a number of reasons for this.  There are a number of ways to make this happen as well.  Lets start with the basics.&lt;/p&gt;
+
+&lt;p&gt;Lets use the example folder hierarchy above, with an extra bit of detail added:&lt;/p&gt;
+
+&lt;p&gt;For Analysis: &lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;For Writing: &lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/TemperatureMansucript&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we&amp;rsquo;ve specified TWO files inside the TemperatureExperiment folder. If you were using Windows Explorer or the Finder (or the equivalent in Linux/Unix), AND you were looking AT the TemperatureExperiment folder, you would see two folders (directories) inside that one:&lt;/p&gt;
+
+&lt;p&gt;ADD WINDOWS AND MAC PICTURES&lt;/p&gt;
+
+&lt;p&gt;We think this is ONE form of best practice.  It creates a place on your computer where a research project or activity can be found, using a name (TemperatureExperiment2017) that contains both information about the research activity - it&amp;rsquo;s your experiment examining the effects of temperature - and something about when it was done (2017).  This folder is in a place where you keep projects that you are trying to turn into papers you want to publish in journals, for example. That&amp;rsquo;s why it&amp;rsquo;s called manuscripts.&lt;/p&gt;
+
+&lt;h4 id=&#34;ok-what-s-the-real-value&#34;&gt;OK - what&amp;rsquo;s the real value?&lt;/h4&gt;
+
+&lt;p&gt;There is something special about the way R and RStudio work when you organise things like this.  The &lt;strong&gt;something special&lt;/strong&gt; is that whenever you go to the folder that has an R script in it, and you open it (using R or RStudio), R assumes that the working directory - the folder where it will FIRST look to find things, is the very folder in which you&amp;rsquo;ve stored the script.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s think this through with an example. Let&amp;rsquo;s assume that the Temperature experiment DATA are stored in the &lt;code&gt;TempExpData2017.csv&lt;/code&gt; file.  Let&amp;rsquo;s assume that you&amp;rsquo;ve also created a script to analyse these data, called &lt;code&gt;TempExpAnalysis2017.R&lt;/code&gt;.  Finally, let&amp;rsquo;s assume that you&amp;rsquo;ve stored both of these inside the &lt;code&gt;TemperatureExperiment2017&lt;/code&gt; folder (directory).  If we just look at &lt;strong&gt;paths&lt;/strong&gt; it looks like this&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder/TempExpData2017.csv&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder/TempExpAnalysis2017.R&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what it might look like on your PC/Mac:&lt;/p&gt;
+
+&lt;p&gt;2PICTURES&lt;/p&gt;
+
+&lt;p&gt;You could practice here to see if this works.  If you have a dataset in a csv file, and a script, and you put them in the same folder, and then you double click on the script, you should find that R is looking inside that folder.  How do you prove this to yourself?  One way is to type the follwing into the console of R or RStudio.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r, eval = FALSE&#34;&gt;
+# where is R looking
+getwd()
+
+# can I see the files inside this folder?
+list.files()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If this works, and your folder ONLY has the R script and .csv file, you will see&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The path listed, such as &lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Then, TWO file listed.  The dataset, e.g.: &lt;code&gt;TempExpData2017.csv&lt;/code&gt; and the script, e.g.: &lt;code&gt;TempExpAnalysis2017.R&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;the-real-value&#34;&gt;The REAL value.&lt;/h4&gt;
+
+&lt;p&gt;At this point, many of you will have realised something special.  Once you organise your files like this, and open a script like this, the things you need the most (the data and the script) or lurking in the same place on your computer AND R/RStudio has assumed that everything the script needs (the data) to run are right here.&lt;/p&gt;
+
+&lt;p&gt;As we discuss in our book, Getting Started with R: An Introduction for Biologists, there are now two ways you can import the data at this point.  Both are MUCH easier having set your research life up in such an organised manner as we described above.&lt;/p&gt;
+
+&lt;h4 id=&#34;using-rstudio-importdata-functionality&#34;&gt;Using RStudio ImportData functionality&lt;/h4&gt;
+
+&lt;p&gt;In the latest version of RStudio (this is written with 1.0.136), the Import Dataset functionality is now found in the File menu.  In older version, you might find it in the Files tab on the lower right window of RStudio.&lt;/p&gt;
+
+&lt;p&gt;The RStudio functionality allows you to import lots of different types of files.  We won&amp;rsquo;t go into detail about why we still recommend .csv files for storage, but suffice it to say, if you use &lt;code&gt;RStudio-&amp;gt;File-&amp;gt;ImportDataset-&amp;gt;Browse&lt;/code&gt;, the dialogue box that comes up will AUTOMATICALLY be looking in the folder in which the script you&amp;rsquo;ve opened is living.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/FileImportBox_RStudio.png&#34; alt=&#34;The RStudio DataImport Dialogue box is looking at my working directory (folder) by default if I opened the script by double clicking it.&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;using-read-csv-or-read-csv-in-your-script&#34;&gt;Using &lt;code&gt;read.csv()&lt;/code&gt; or &lt;code&gt;read_csv()&lt;/code&gt; in your script.&lt;/h4&gt;
+
+&lt;p&gt;If you look carefully above, there is a &lt;em&gt;Code Preview&lt;/em&gt; in the lower right hand corner of the big dialogue box.  It indicates that RStudio is using the library &lt;code&gt;readr&lt;/code&gt; and that it is using the function &lt;code&gt;read_csv()&lt;/code&gt; to import the data.&lt;/p&gt;
+
+&lt;p&gt;The point we want to make at this point is that it is possible to add such code directly to your script.  We like aspects of this idea because it embeds in your script, for others (collaborators etc) to see, the name of your dataset.&lt;/p&gt;
+
+&lt;p&gt;To make everything clear, we recommend rather substantial commenting, for example.&lt;/p&gt;
+
+&lt;p&gt;```{r, eval = FALSE}&lt;/p&gt;
+
+&lt;h1 id=&#34;this-script-is-working-in-the-manuscrips-temperatureexperiment2017-analysisfolder-directory&#34;&gt;This script is working in the Manuscrips/TemperatureExperiment2017/AnalysisFolder directory&lt;/h1&gt;
+
+&lt;h1 id=&#34;it-contains-the-analysis-of-the-tempexpdata2017-csv-dataset&#34;&gt;It contains the analysis of the TempExpData2017.csv dataset&lt;/h1&gt;
+
+&lt;h1 id=&#34;the-dataset-contains-information-on-population-sizes-of-3-species-of-protists-populations-at-4-different-temperatures-18-20-22-and-28-c-over-100-days-of-observation&#34;&gt;The dataset contains information on population sizes of 3 species of protists populations at 4 different temperatures (18, 20, 22 and 28 C) over 100 days of observation.&lt;/h1&gt;
+
+&lt;h1 id=&#34;here-we-use-read-csv-to-get-the-data-in-assume-i-have-opened-the-script-by-double-clicking-it-in-this-directory-manuscrips-temperatureexperiment2017&#34;&gt;here we use read.csv() to get the data in.  Assume I have opened the script by double clicking it IN THIS DIRECTORY Manuscrips/TemperatureExperiment2017/&lt;/h1&gt;
+
+&lt;h1 id=&#34;the-data&#34;&gt;THE DATA&lt;/h1&gt;
+
+&lt;p&gt;TempData &amp;lt;- read.csv(&amp;lsquo;TempExpData2017.csv&amp;rsquo;)
+````&lt;/p&gt;
+
+&lt;p&gt;As an aside, it is totally possibe to open RStudio FIRST and set your working directory to this folder where all good things are living&amp;hellip;.The RStudio -&amp;gt; Session -&amp;gt; Set Working Directory functionality allows you to do this.  If you work this way, it is nigh on imperitive that you annotate CLEARLY.&lt;/p&gt;
+
+&lt;h4 id=&#34;recap-data-and-script-in-the-same-folder&#34;&gt;Recap: Data and Script in the same Folder&lt;/h4&gt;
+
+&lt;p&gt;If you work this way, and open R and RStudio by clicking the file inside the folder containing the data, R and RStudio ASSUME that the &lt;em&gt;working directory&lt;/em&gt; is this folder, and the data will be found here.  That&amp;rsquo;s why we can simply write &lt;code&gt;TempData &amp;lt;- read.csv(&#39;TempExpData2017.csv&#39;)&lt;/code&gt; without any other information about the location of the file on your computer.  R and RStudio are looking at it already.&lt;/p&gt;
+
+&lt;p&gt;TOP TIP, made clear by @HadleyWikham.  IF you want to start working on another project after you&amp;rsquo;ve worked on this one, and you want to ensure that the current data, current script and any objects you&amp;rsquo;ve used/made for this analysis, are &lt;em&gt;not&lt;/em&gt; in your way, &lt;em&gt;quit&lt;/em&gt; RStudio &amp;reg; and then open the next project by double clcking on the Script of Choice.&lt;/p&gt;
+
+&lt;p&gt;This is a strong indication that this method is weak on the &amp;lsquo;reset&amp;rsquo; R idea&amp;hellip;.&lt;/p&gt;
+
+&lt;p&gt;TOP TIP 2: Note that with this method, &lt;code&gt;rm(list = ls())&lt;/code&gt; is not necessary.  If you start RStudio/R &lt;em&gt;fresh&lt;/em&gt; (e.g. it is &lt;em&gt;not&lt;/em&gt; running) by clicking on a script inside a folder with the data, it is effectively a &lt;em&gt;reset&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;method-2-script-and-data-in-different-folders-the-relatie-path-method&#34;&gt;METHOD 2:Script and Data in DIFFERENT FOLDERS (The Relatie Path Method)&lt;/h2&gt;
+
+&lt;p&gt;Dylan to Add Relative File Path Shite&lt;/p&gt;
+
+&lt;h2 id=&#34;method-3-the-rstudio-project&#34;&gt;METHOD 3: The RStudio Project&lt;/h2&gt;
+
+&lt;p&gt;Of course, we leave it to last to point out that the friendly neighbourhood Open Source RStudio gurus have put a lot of thought into this.  In fact, back to our twitter interaction, they thought a lot about the &amp;lsquo;reset&amp;rsquo; and the working directory.  And then there were Projects&lt;/p&gt;
+
+&lt;h4 id=&#34;what-it-does&#34;&gt;What it does&lt;/h4&gt;
+
+&lt;h4 id=&#34;how-to-make-it&#34;&gt;How to make it&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/Step_1_File_NewProject.png&#34; alt=&#34;Step 1: File -&amp;gt; New Project&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>geom_col versus geom_bar</title>
+      <link>https://r4all.github.io/website/posts/geom-col-versus-geom-bar/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/geom-col-versus-geom-bar/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;div id=&#34;new-stuff-in-ggplot-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;New Stuff in ggplot 2&lt;/h2&gt;
+&lt;p&gt;This is part 1 of an occaisional series we will publish updating/augmenting several pieces of the graphing detail in Getting Started with R.&lt;/p&gt;
+&lt;div id=&#34;bar-charts---the-bane-of-our-existence-just-got-a-bit-easier&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Bar Charts - the bane of our existence just got a bit easier&lt;/h3&gt;
+&lt;p&gt;We don’t advocate using bar charts very often&lt;/p&gt;
+&lt;p&gt;Presenting contingency table data is one time it seems OK.&lt;/p&gt;
+&lt;p&gt;geom_bar(stat=‘identity’) == don’t do nowt, do what I told you&lt;/p&gt;
+&lt;p&gt;NOW&lt;/p&gt;
+&lt;p&gt;geom_col()&lt;/p&gt;
+&lt;p&gt;IF you are gonna use em…&lt;/p&gt;
+&lt;p&gt;geom_col() geom_errorbar()&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>working with dinosaurs</title>
+      <link>https://r4all.github.io/website/posts/working-with-dinosaurs/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/working-with-dinosaurs/</guid>
+      <description>&lt;p&gt;&lt;em&gt;‘We will one day all be dinosauRs’&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Fashion happens, even in R. It seems like everyone HAS to learn the tidyverse, and at least the data management tools of dplyr and the graphing tools of ggplot2. It’s so hot! It is quite cool. But it has created dinosauRs - people weaned and reared on the milk of base R. base R is nutritious and good. But it scares the new tidypeople. And the base R dinosauRs are sometimes scared or even ambivalent to tidypeople.&lt;/p&gt;
+&lt;p&gt;Why change? It’s consistent, fast, effective and makes working with data and graphs for data wrangling, data science and plain old science more easy and more fun. We think. But it is not required, and not the end of the world if someone doesn’t know or use it.&lt;/p&gt;
+&lt;p&gt;And we are acutely aware that in moving our teaching material and our book, &lt;em&gt;Getting Started with R: An Introduction for Biologist&lt;/em&gt; to the tidyverse, and particularly to ggplot2 and dplyr for graphing and data manipulation, we have created a situation where students may be learning how to do things differently than their supervisors, fellow students, post-docs and people/help groups they interact with online for help. We are acutely aware, because it’s happened around us, with our own students and colleagues. This isn’t bad. It is fun. Really.&lt;/p&gt;
+&lt;p&gt;But, getting to the point where you do statistics - e.g. organising your data and making a good figure before you start analysing the data - well, this has changed for tidypeople. This reflects the reality is that there are just now more ways to do things than before. One way or another, we’ll become dinosauRs.&lt;/p&gt;
+&lt;p&gt;This blog post is designed to highlight some of what changed. It’s also designed to help you in ‘working with dinosauRs’. What follows is a set of examples of doing things in base R and dplyr or ggplot2. It is not exhaustive. Just a primer for liaising with dinosauRs.&lt;/p&gt;
+&lt;div id=&#34;two-ways-to-import-data&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Two ways to import data&lt;/h1&gt;
+&lt;p&gt;First we load some packages and import the data. But we import the data each of two ways, the base way and the tidyverse way.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# libraries you need
+library(dplyr)
+library(ggplot2)
+library(readr)
+
+# get the data into R with the base R function
+compensation_br &amp;lt;- read.csv(&amp;quot;data/compensation.csv&amp;quot;)
+
+## get the data into R with the tidyverse function
+compensation_tv &amp;lt;- read_csv(&amp;quot;data/compensation.csv&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(In case you didn’t spot the difference, its the full stop or underscore between &lt;code&gt;read&lt;/code&gt;and &lt;code&gt;csv&lt;/code&gt;.)&lt;/p&gt;
+&lt;p&gt;What’s the difference here? One big one is &lt;code&gt;read.csv&lt;/code&gt; converts character variables to factors. Many people prefer this doesn’t happen automatically (&lt;code&gt;read_csv&lt;/code&gt; doesn’t do this). Another is &lt;code&gt;read.csv&lt;/code&gt; creates a &lt;code&gt;data.frame&lt;/code&gt; while &lt;code&gt;read_csv&lt;/code&gt;creates a &lt;code&gt;tibble&lt;/code&gt;. One nice thing about a &lt;code&gt;tibble&lt;/code&gt; is how it looks in the Console – a much more considerate view than one often get with a big dataframe:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;compensation_tv&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 40 x 3
+##     Root Fruit  Grazing
+##    &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;    &amp;lt;chr&amp;gt;
+##  1 6.225 59.77 Ungrazed
+##  2 6.487 60.98 Ungrazed
+##  3 4.919 14.73 Ungrazed
+##  4 5.130 19.28 Ungrazed
+##  5 5.417 34.25 Ungrazed
+##  6 5.359 35.53 Ungrazed
+##  7 7.614 87.73 Ungrazed
+##  8 6.352 63.21 Ungrazed
+##  9 4.975 24.25 Ungrazed
+## 10 6.930 64.34 Ungrazed
+## # ... with 30 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;messing-with-your-data-dplyr-vs.base&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Messing with your data: dplyr vs. base&lt;/h1&gt;
+&lt;p&gt;In our book, we provide a table with comparative code from dplyr and base R. Here we expand a bit on this, providing a New R User and new tidyperson template for speaking and interacting with your pet dinosauR.&lt;/p&gt;
+&lt;embed src=&#34;old_new_comparison_table.pdf&#34; width=&#34;800px&#34; type=&#34;application/pdf&#34; /&gt;
+&lt;p&gt;dplyr is a toolbox with a set of functions, each optimised to do one thing and one thing very well, and very fast. It is also designed to help you by first giving the data frame (or more likely &lt;a href=&#34;https://cran.r-project.org/web/packages/tibble/vignettes/tibble.html&#34;&gt;tibble&lt;/a&gt;) in which all of your variables are stored, and then asking for things to happen. This is a highly standardised toolbox. We like this.&lt;/p&gt;
+&lt;p&gt;Lets work with three examples - getting a column, getting rows and subsetting your data based on values of a variable. We look at base and dplyr methods to do each.&lt;/p&gt;
+&lt;p&gt;To run the code, you’ll need to download the dataset &lt;code&gt;compensation.csv&lt;/code&gt; from the R4All website (get the zip file of all the datasets, upack it, and you’ll see the &lt;code&gt;compensation.csv&lt;/code&gt; dataset.&lt;/p&gt;
+&lt;div id=&#34;get-columns-with-dplyr&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Get columns with dplyr&lt;/h2&gt;
+&lt;p&gt;With dplyr, we can select a column with one function two ways:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# use select().  The first argument is the data frame and the second is the column.
+select(compensation_tv, Fruit)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 40 x 1
+##    Fruit
+##    &amp;lt;dbl&amp;gt;
+##  1 59.77
+##  2 60.98
+##  3 14.73
+##  4 19.28
+##  5 34.25
+##  6 35.53
+##  7 87.73
+##  8 63.21
+##  9 24.25
+## 10 64.34
+## # ... with 30 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# or
+# select(compensation_tv, 2) # gets the second column, which is Fruit!&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The important detail here is that &lt;code&gt;dplyr&lt;/code&gt; functions alway take the data frame as the first argument and ALWAYS return a &lt;code&gt;tibble&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;get-columns-with-base-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Get columns with base R&lt;/h2&gt;
+&lt;p&gt;How can you do this in base R? What might you see from the dinosauRs? Well, lots of different ways to do the ‘same’ thing…. almost. Lets look at 4 ways, and see what happens.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Base Method 1: $
+compensation_br$Fruit&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  59.77  60.98  14.73  19.28  34.25  35.53  87.73  63.21  24.25  64.34
+## [11]  52.92  32.35  53.61  54.86  64.81  73.24  80.64  18.89  75.49  46.73
+## [21] 116.05  38.94  60.77  84.37  70.11  14.95  70.70  80.31  82.35 105.07
+## [31]  73.79  50.08  78.28  41.48  98.47  40.15  52.26  46.64  71.01  83.03&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Base Method 2: [, &amp;#39;column name&amp;#39; ]
+compensation_br[,&amp;#39;Fruit&amp;#39;]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  59.77  60.98  14.73  19.28  34.25  35.53  87.73  63.21  24.25  64.34
+## [11]  52.92  32.35  53.61  54.86  64.81  73.24  80.64  18.89  75.49  46.73
+## [21] 116.05  38.94  60.77  84.37  70.11  14.95  70.70  80.31  82.35 105.07
+## [31]  73.79  50.08  78.28  41.48  98.47  40.15  52.26  46.64  71.01  83.03&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Base Method 3: [, column_number]
+compensation_br[,2]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1]  59.77  60.98  14.73  19.28  34.25  35.53  87.73  63.21  24.25  64.34
+## [11]  52.92  32.35  53.61  54.86  64.81  73.24  80.64  18.89  75.49  46.73
+## [21] 116.05  38.94  60.77  84.37  70.11  14.95  70.70  80.31  82.35 105.07
+## [31]  73.79  50.08  78.28  41.48  98.47  40.15  52.26  46.64  71.01  83.03&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Base Method 4: subset()
+subset(compensation_br, select = Fruit)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##     Fruit
+## 1   59.77
+## 2   60.98
+## 3   14.73
+## 4   19.28
+## 5   34.25
+## 6   35.53
+## 7   87.73
+## 8   63.21
+## 9   24.25
+## 10  64.34
+## 11  52.92
+## 12  32.35
+## 13  53.61
+## 14  54.86
+## 15  64.81
+## 16  73.24
+## 17  80.64
+## 18  18.89
+## 19  75.49
+## 20  46.73
+## 21 116.05
+## 22  38.94
+## 23  60.77
+## 24  84.37
+## 25  70.11
+## 26  14.95
+## 27  70.70
+## 28  80.31
+## 29  82.35
+## 30 105.07
+## 31  73.79
+## 32  50.08
+## 33  78.28
+## 34  41.48
+## 35  98.47
+## 36  40.15
+## 37  52.26
+## 38  46.64
+## 39  71.01
+## 40  83.03&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What do we notice? Well, not only are there 4 ways to do the same thing, only one of them actually returns ‘exactly’ what &lt;code&gt;dplyr&lt;/code&gt;’s select() does, a data frame of Fruit. Which one? &lt;code&gt;subset()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;What are the other three returning? They are returning vectors… e.g. just the numbers. They are not organised into a single column data frame with a column lable called Fruit. This might be what you want sometimes… it might not other times. Keep in mind that this, we believe, is one of the fun bits of R.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;get-a-row-or-some-rows-with-dplyr&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Get a row (or some rows) with dplyr&lt;/h2&gt;
+&lt;p&gt;Selecting rows in R is also as variable as selecting columns.&lt;/p&gt;
+&lt;p&gt;Lets recall the dplyr method - &lt;code&gt;slice()&lt;/code&gt; or &lt;code&gt;filter()&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;slice(compensation_tv, 2) # get the second row&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 1 x 3
+##    Root Fruit  Grazing
+##   &amp;lt;dbl&amp;gt; &amp;lt;dbl&amp;gt;    &amp;lt;chr&amp;gt;
+## 1 6.487 60.98 Ungrazed&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice that again, dplyr function &lt;code&gt;slice()&lt;/code&gt; starts with the data frame as it’s first argument, and then specifies the row number. And importantly, we now have a 1 row, 3 column data frame.&lt;/p&gt;
+&lt;p&gt;Lets recall how dplyr does this using &lt;code&gt;filter()&lt;/code&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;filter(compensation_tv, Fruit &amp;gt; 80)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 9 x 3
+##     Root  Fruit  Grazing
+##    &amp;lt;dbl&amp;gt;  &amp;lt;dbl&amp;gt;    &amp;lt;chr&amp;gt;
+## 1  7.614  87.73 Ungrazed
+## 2  7.001  80.64 Ungrazed
+## 3 10.253 116.05   Grazed
+## 4  9.039  84.37   Grazed
+## 5  8.988  80.31   Grazed
+## 6  8.975  82.35   Grazed
+## 7  9.844 105.07   Grazed
+## 8  9.351  98.47   Grazed
+## 9  8.530  83.03   Grazed&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;get-a-row-or-some-rows-with-base-r&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Get a row (or some rows) with base R&lt;/h2&gt;
+&lt;p&gt;Base R provides one way to do this.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Base Method 1: [ ]
+compensation_br[2,]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    Root Fruit  Grazing
+## 2 6.487 60.98 Ungrazed&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note where the comma is, and that the outcome is the same (it’s got the right numbers) AND it has returned a data frame. Interesting…. eh?&lt;/p&gt;
+&lt;p&gt;The final bit of base-dplyr punch up we want to compare involves subsetting your data. Lets imaging we want to return all rows that have Fruit values &amp;gt; 80 kg. Lets work through several ways to do this with base R, and then shift to dplyr.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Base Method 1: [ ]
+compensation_br[compensation_br$Fruit&amp;gt;80,]&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      Root  Fruit  Grazing
+## 7   7.614  87.73 Ungrazed
+## 17  7.001  80.64 Ungrazed
+## 21 10.253 116.05   Grazed
+## 24  9.039  84.37   Grazed
+## 28  8.988  80.31   Grazed
+## 29  8.975  82.35   Grazed
+## 30  9.844 105.07   Grazed
+## 35  9.351  98.47   Grazed
+## 40  8.530  83.03   Grazed&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Base Method 2: subset()
+subset(compensation_br, subset = Fruit &amp;gt; 80)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      Root  Fruit  Grazing
+## 7   7.614  87.73 Ungrazed
+## 17  7.001  80.64 Ungrazed
+## 21 10.253 116.05   Grazed
+## 24  9.039  84.37   Grazed
+## 28  8.988  80.31   Grazed
+## 29  8.975  82.35   Grazed
+## 30  9.844 105.07   Grazed
+## 35  9.351  98.47   Grazed
+## 40  8.530  83.03   Grazed&lt;/code&gt;&lt;/pre&gt;
+&lt;div id=&#34;getting-some-rows-and-some-coluns-the-grand-challenge&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;Getting some rows and some coluns… the grand challenge&lt;/h4&gt;
+&lt;p&gt;However, lets try and make this a bit more complicated to see how different base methods stack up to dplyr tools. Lets now not only request &lt;code&gt;Fruit &amp;gt; 80&lt;/code&gt;, but also JUST return the Root values where &lt;code&gt;Fruit &amp;gt; 80&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Base Method 1: [ ] + $
+compensation_br[compensation_br$Fruit&amp;gt;80,]$Root&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1]  7.614  7.001 10.253  9.039  8.988  8.975  9.844  9.351  8.530&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Base Method 2: subset() + $
+subset(compensation_br, subset = Fruit &amp;gt; 80)$Root&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## [1]  7.614  7.001 10.253  9.039  8.988  8.975  9.844  9.351  8.530&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Base Method 2: subset()
+subset(compensation_br, subset = Fruit &amp;gt; 80, select = Root)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##      Root
+## 7   7.614
+## 17  7.001
+## 21 10.253
+## 24  9.039
+## 28  8.988
+## 29  8.975
+## 30  9.844
+## 35  9.351
+## 40  8.530&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notice three things here. First, Base Method 1 involves &lt;code&gt;[ ]&lt;/code&gt; and &lt;code&gt;$&lt;/code&gt;. It also now returns a vector, not a data frame. Second, Base Method 2, using &lt;code&gt;subset()&lt;/code&gt; and $ also returns a vector. &lt;code&gt;subset()&lt;/code&gt; actually returns a data frame, but $ returns a vector. Base Method 3 uses only &lt;code&gt;subset()&lt;/code&gt; and returns a data frame and reveals that the function &lt;code&gt;subset()&lt;/code&gt; has two arguments that are indeed quite handy: &lt;code&gt;susbet =&lt;/code&gt; and &lt;code&gt;select =&lt;/code&gt;. Very nice indeed.&lt;/p&gt;
+&lt;p&gt;What do we need to do to replicate the functionality of subset() in dplyr? Given that dplyr functions tend to only do one thing, we actually need both the &lt;code&gt;filter()&lt;/code&gt; and the &lt;code&gt;select()&lt;/code&gt; function. And, actually, there are two ways to do this: we call them the nested method and the piping method.&lt;/p&gt;
+&lt;p&gt;The nested method follows old skool ideas in R. Functions within functions are evaluated from the inside out.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;select(filter(compensation_tv, Fruit&amp;gt;80), Root) # nested method&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 9 x 1
+##     Root
+##    &amp;lt;dbl&amp;gt;
+## 1  7.614
+## 2  7.001
+## 3 10.253
+## 4  9.039
+## 5  8.988
+## 6  8.975
+## 7  9.844
+## 8  9.351
+## 9  8.530&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, &lt;code&gt;filter()&lt;/code&gt; is first evaluated, producing a data frame, followed by applying to this new dataframe, on-the-fly, the &lt;code&gt;select()&lt;/code&gt; function.&lt;/p&gt;
+&lt;p&gt;However, dplyr ships with another package built in… &lt;code&gt;magrittr&lt;/code&gt;. It’s quite awesome.&lt;/p&gt;
+&lt;p&gt;magritter has a function &lt;code&gt;%&amp;gt;%&lt;/code&gt; that is called the pipe. It passes the stuff-on-the-left to the thing-on-the-right. It works by starting with the data frame, and passing it on to a function that does stuff, and passing this stuff on to other functions that do stuff…. like this.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;compensation_tv %&amp;gt;% 
+  filter(Fruit&amp;gt;80) %&amp;gt;% 
+    select(Root) # piping method&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 9 x 1
+##     Root
+##    &amp;lt;dbl&amp;gt;
+## 1  7.614
+## 2  7.001
+## 3 10.253
+## 4  9.039
+## 5  8.988
+## 6  8.975
+## 7  9.844
+## 8  9.351
+## 9  8.530&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Nice! This captures the order in which you want things to happen, without thinking from the inside out. Neither way of thinking is right or wrong, we note. And with the dplyr functions, you always always deliver a data frame and get a data frame.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Base R and dplyr ship with tools that perform very similar functions The thing to remember with R and with your dinosaurRs, is that they are all good. Just remember that dplyr is way more consistent in what it takes - always a data frame - and returns - always a data frame. dplyr functions always, also, do one thing. For example, &lt;code&gt;subset()&lt;/code&gt; from base R can do two things… select and filter.&lt;/p&gt;
+&lt;p&gt;Just remember to think about what you want before you start!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;messing-with-your-graphs-ggplot2-vs.base-vs.lattice&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Messing with your graphs: ggplot2 vs. base (vs. lattice)&lt;/h1&gt;
+&lt;p&gt;We might as well add a little bit of base graphics versus ggplot2 for the fun of it.&lt;/p&gt;
+&lt;p&gt;We’ll make a 2 colour graph that corresponds to an ANCOVA model scenario - e.g. a continuous and a categorical explanatory/independent variable, and a numerical response/dependent variable. We’ll use the same data.&lt;/p&gt;
+&lt;div id=&#34;some-base-graphics&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Some base graphics&lt;/h2&gt;
+&lt;p&gt;If you want to see more of these base graphics, feel free to consult the web, or our 1st edition book.&lt;/p&gt;
+&lt;p&gt;We adhere to the principle, in base graphics, that the question you are asking and the data you are plotting go hand-in-hand. With the data we are using lets use Fruit as our response variable and Root as the continuous explanatory variable, and Grazing as our categorical explanatory variable. Lets assume that we are looking at Fruit set on apple trees as a function of the grafted root stock width and whether cows have been allowed to graze underneath them or not (reducing competition by eating the grass, of course).&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;plot()&lt;/code&gt; function that is at the heart of base graphics can take a formulae as it’s first argument. We always like(d) this. We start with the &lt;em&gt;regression&lt;/em&gt; part of the model - &lt;code&gt;Fruit ~ Root&lt;/code&gt; where &lt;code&gt;~&lt;/code&gt; translates “is a function of…”. Lets also not forget that &lt;code&gt;plot()&lt;/code&gt; takes a data argument too.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(Fruit ~ Root, data = compensation_br)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;At this point, and to keep this focused, lets decide on a few things to do to this graph:&lt;/p&gt;
+&lt;p&gt;1)Let’s colour the points by the Grazing factor 2)Let’s double the size of the points, and make them filled 3)Lets customise the x- and y-axis labels, changing the words 4)Add a legend in the top left&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(Fruit ~ Root, data = compensation_br, 
+    # double the font size with cex (character expansion
+    # make the points solid (filled) using pch (point character)
+    cex = 2, pch = 19,
+    # colour the points by Grazing
+    # brown for grazed, green for ungrazed (alphabetical rules)
+    # this takes a vector of colours and allocates them alphabetically
+    # to each level of granzing (Grazed and Ungrazed)
+    col = c(&amp;#39;brown&amp;#39;,&amp;#39;green&amp;#39;)[Grazing],
+    # x- and y-axis labels
+    xlab = &amp;quot;Root Stock (mm)&amp;quot;, ylab=&amp;quot;Fruit Harvest (kg)&amp;quot;    
+)
+
+# add the legend, after the graph is made.
+legend(&amp;#39;topleft&amp;#39;, col=c(&amp;#39;brown&amp;#39;,&amp;#39;green&amp;#39;), 
+       pch = 19, legend = c(&amp;quot;Grazed&amp;quot;,&amp;quot;Ungrazed&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;the-ggplot2-hipster-might-do-something-like-this.&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;The ggplot2 hipsteR might do something like this.&lt;/h2&gt;
+&lt;p&gt;Doing most of this in ggplot2 is easy, and some would suggest easier. There are some things that are easier, and some that simply require knowing that base and ggplot2 graphics each have their own vocabulary. Lets see what we can do.&lt;/p&gt;
+&lt;p&gt;We begin with the foundation layer of the graph. Just the points, axes and labels.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(compensation_tv, aes(x = Root, y = Fruit))+
+  geom_point()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If you are not super up2speed with ggplot2:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;it always starts with the data frame… that is the first argument&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;aes()&lt;/code&gt; are the aesthetics, and map the data (x and y variables, Root and Fruit) to the graph coordinate system.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;geom_point()&lt;/code&gt; adds the points, at the right x-y locations (the coordinate system), using a point.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Lets customise it in the same way. We’ll come back to explain some of the syntax…&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Let’s colour the points by the Grazing factor&lt;/li&gt;
+&lt;li&gt;Let’s double the size of the points, and make them filled&lt;/li&gt;
+&lt;li&gt;Lets customise the x- and y-axis labels, changing the words&lt;/li&gt;
+&lt;li&gt;Add a legend…. (!)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(compensation_tv, aes(x = Root, y = Fruit, colour = Grazing))+
+  geom_point(size = 2)+
+  xlab(&amp;quot;Root Stock (mm)&amp;quot;) + ylab(&amp;quot;Fruit Harvest (kg)&amp;quot;)+
+  theme_bw()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We’ve deliberately not finished, just to show what a few keywords in ggplot2 do.&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;colour, in the aesthetics, does what &lt;code&gt;col = c(&#39;brown&#39;,&#39;green&#39;)[Grazing]&lt;/code&gt; does in base graphics, but uses some default colours.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;geom_point()&lt;/code&gt; adds the points. &lt;code&gt;size=2&lt;/code&gt; in the &lt;code&gt;geom_point()&lt;/code&gt; makes ALL points double size.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;theme_bw()&lt;/code&gt; has removed the grey background, but left the gridlines. There are packages with tonnes and tons of theme options, including one that can look JUST LIKE BASE! (ggthemes)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Note too that by specifying &lt;code&gt;colour()&lt;/code&gt; in the aesthetics, a legend is produced and placed for you.&lt;/p&gt;
+&lt;p&gt;All of this is handy dandy. However, people ALWAYS wonder how to change the colours. They always wonder this with base graphics too. It may be your dinosauR knows how to do this our way above, or another way. There are many.&lt;/p&gt;
+&lt;p&gt;In ggplot2, for this kind of graph, there is a good way to do this.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(compensation_tv, aes(x = Root, y = Fruit, colour = Grazing))+
+  geom_point(size = 2)+
+  xlab(&amp;quot;Root Stock (mm)&amp;quot;) + ylab(&amp;quot;Fruit Harvest (kg)&amp;quot;)+
+  scale_colour_manual(values = c(Grazed = &amp;#39;brown&amp;#39;, Ungrazed = &amp;#39;green&amp;#39;))+
+  theme_bw()&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;summary-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;There you have it. A quick introduction to the dinosauR you may be working with or have to collaborate with. Don’t get angry at the dinosauR. base R is awesome and does a great many things a great deal goodly. Most of the time, base v. tidyverse is not a battle at all. But… this is not only a tutorial to handle the dinosauR, but something the dinosauR can use to start gettin’ hip with the youngsteRs.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;but-respect-your-dinosaurs&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;But… respect your DinosauRs&lt;/h1&gt;
+&lt;p&gt;No disaster has wiped out the DinosauRs, or wiped out how they use R. They will still be very effective. Some of the DinosauRs will be very impressive animals. So don’t write them off, and realise that there will likely be a lot to learn from them. Respect your dinosauRs!&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Plain Markdown Post</title>
+      <link>https://r4all.github.io/website/posts/2016-12-30-hello-markdown/</link>
+      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/2016-12-30-hello-markdown/</guid>
+      <description>&lt;p&gt;This is a post written in plain Markdown (&lt;code&gt;*.md&lt;/code&gt;) instead of R Markdown (&lt;code&gt;*.Rmd&lt;/code&gt;). The major differences are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (&lt;code&gt;```{r}&lt;/code&gt;);&lt;/li&gt;
+&lt;li&gt;A plain Markdown post is rendered through &lt;a href=&#34;https://gohugo.io/overview/configuration/&#34;&gt;Blackfriday&lt;/a&gt;, and an R Markdown document is compiled by &lt;a href=&#34;http://rmarkdown.rstudio.com&#34;&gt;&lt;strong&gt;rmarkdown&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;http://pandoc.org&#34;&gt;Pandoc&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:&lt;/p&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked disabled class=&#34;task-list-item&#34;&gt; Write an R package.&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Write a book.&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; &amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Profit!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (&lt;a href=&#34;https://github.com/yihui/hugo-lithium-theme&#34;&gt;hugo-lithium-theme&lt;/a&gt;) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: &lt;code&gt;`$ $`&lt;/code&gt;; display style: &lt;code&gt;`$$ $$`&lt;/code&gt;), e.g., &lt;code&gt;$S_n = \sum_{i=1}^n X_i$&lt;/code&gt;.&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:This-is-because&#34;&gt;&lt;a rel=&#34;footnote&#34; href=&#34;#fn:This-is-because&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.&lt;/p&gt;
+
+&lt;p&gt;When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the &lt;code&gt;rmd&lt;/code&gt; argument of the function &lt;code&gt;blogdown::new_post()&lt;/code&gt;, e.g.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;blogdown::new_post(&amp;quot;Post Title&amp;quot;, rmd = FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:This-is-because&#34;&gt;This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., &lt;code&gt;\$50 and $100&lt;/code&gt; renders &amp;ldquo;\$50 and $100&amp;rdquo;. &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:This-is-because&#34;&gt;&lt;sup&gt;[return]&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://r4all.github.io/website/posts/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/2015-07-23-r-rmarkdown/</guid>
+      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &amp;lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;including-plots&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&amp;#39;Sky&amp;#39;, &amp;#39;Sunny side of pyramid&amp;#39;, &amp;#39;Shady side of pyramid&amp;#39;),
+  col = c(&amp;#39;#0292D8&amp;#39;, &amp;#39;#F7EA39&amp;#39;, &amp;#39;#C4B632&amp;#39;),
+  init.angle = -50, border = NA
+)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://r4all.github.io/website/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: A fancy pie chart.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>https://r4all.github.io/website/posts/2015-01-01-lorem-ipsum/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/2015-01-01-lorem-ipsum/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Lorem ipsum&lt;/strong&gt; dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore &lt;em&gt;magna aliqua&lt;/em&gt;. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

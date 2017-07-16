@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Learn Theme</title>
-    <link>https://matcornic.github.io/hugo-learn-doc/index.xml</link>
-    <description>Recent content on Hugo Learn Theme</description>
+    <title>The R4All Website</title>
+    <link>https://r4all.github.io/website/index.xml</link>
+    <description>Recent content on The R4All Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
-    <atom:link href="https://matcornic.github.io/hugo-learn-doc/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://r4all.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Pages</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/cont/pages/</link>
+      <link>https://r4all.github.io/website/cont/pages/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/cont/pages/</guid>
+      <guid>https://r4all.github.io/website/cont/pages/</guid>
       <description>
 
 &lt;p&gt;In &lt;strong&gt;Hugo&lt;/strong&gt;, pages are the core of your site. Once it is configure, pages are definitely the added value to your documentation site.&lt;/p&gt;
@@ -83,7 +83,7 @@ This current documentation has been statically generated with Hugo with a simple
 
 &lt;p&gt;To tell &lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; to consider a page as a chapter, just the name of your file as &lt;code&gt;_index.md&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; provides &lt;a href=&#34;https://matcornic.github.io/hugo-learn-doc/cont/archetypes&#34;&gt;archetypes&lt;/a&gt; to help you create this kind of pages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; provides &lt;a href=&#34;https://r4all.github.io/website/cont/archetypes&#34;&gt;archetypes&lt;/a&gt; to help you create this kind of pages.&lt;/p&gt;
 
 &lt;h2 id=&#34;front-matter&#34;&gt;Front Matter&lt;/h2&gt;
 
@@ -121,10 +121,10 @@ icon: &amp;quot;&amp;quot;
     
     <item>
       <title>What is this Hugo theme ?</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/basics/what-is-this-hugo-theme/</link>
+      <link>https://r4all.github.io/website/basics/what-is-this-hugo-theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/basics/what-is-this-hugo-theme/</guid>
+      <guid>https://r4all.github.io/website/basics/what-is-this-hugo-theme/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; is a theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a fast and modern static website engine written in Go. Where Hugo is often used for blogs, this theme is fully designed for &lt;strong&gt;technical documentation&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;This theme is a partial porting of the &lt;a href=&#34;http://learn.getgrav.org/&#34;&gt;Learn theme&lt;/a&gt; of &lt;a href=&#34;https://getgrav.org/&#34;&gt;Grav&lt;/a&gt;, a modern flat-file CMS written in PHP.&lt;/p&gt;
@@ -137,10 +137,10 @@ icon: &amp;quot;&amp;quot;
     
     <item>
       <title>What is this Hugo theme ?</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/welcome/what-is-this-hugo-theme/</link>
+      <link>https://r4all.github.io/website/welcome/what-is-this-hugo-theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/welcome/what-is-this-hugo-theme/</guid>
+      <guid>https://r4all.github.io/website/welcome/what-is-this-hugo-theme/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; is a theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a fast and modern static website engine written in Go. Where Hugo is often used for blogs, this theme is fully designed for &lt;strong&gt;technical documentation&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;This theme is a partial porting of the &lt;a href=&#34;http://learn.getgrav.org/&#34;&gt;Learn theme&lt;/a&gt; of &lt;a href=&#34;https://getgrav.org/&#34;&gt;Grav&lt;/a&gt;, a modern flat-file CMS written in PHP.&lt;/p&gt;
@@ -153,10 +153,10 @@ icon: &amp;quot;&amp;quot;
     
     <item>
       <title>Requirements</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/basics/requirements/</link>
+      <link>https://r4all.github.io/website/basics/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/basics/requirements/</guid>
+      <guid>https://r4all.github.io/website/basics/requirements/</guid>
       <description>&lt;p&gt;Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.&lt;/p&gt;
 
 &lt;p&gt;Just download &lt;a href=&#34;https://gohugo.io/overview/installing/&#34;&gt;Hugo&lt;/a&gt; binary for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.&lt;/p&gt;
@@ -167,10 +167,10 @@ icon: &amp;quot;&amp;quot;
     
     <item>
       <title>Requirements</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/welcome/requirements/</link>
+      <link>https://r4all.github.io/website/welcome/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/welcome/requirements/</guid>
+      <guid>https://r4all.github.io/website/welcome/requirements/</guid>
       <description>&lt;p&gt;Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.&lt;/p&gt;
 
 &lt;p&gt;Just download &lt;a href=&#34;https://gohugo.io/overview/installing/&#34;&gt;Hugo&lt;/a&gt; binary for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.&lt;/p&gt;
@@ -181,10 +181,10 @@ icon: &amp;quot;&amp;quot;
     
     <item>
       <title>Markdown syntax</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/cont/markdown/</link>
+      <link>https://r4all.github.io/website/cont/markdown/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/cont/markdown/</guid>
+      <guid>https://r4all.github.io/website/cont/markdown/</guid>
       <description>
 
 &lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;This page is a shameful copy of the great &lt;a href=&#34;http://learn.getgrav.org/content/markdown&#34;&gt;Grav original page&lt;/a&gt;.
@@ -859,10 +859,10 @@ Content for chapter one.
     
     <item>
       <title>Getting started</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/basics/installation/</link>
+      <link>https://r4all.github.io/website/basics/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/basics/installation/</guid>
+      <guid>https://r4all.github.io/website/basics/installation/</guid>
       <description>
 
 &lt;p&gt;The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;great documentation for beginners&lt;/a&gt;.&lt;/p&gt;
@@ -963,10 +963,10 @@ As soon as the generation of the index will be supported by hugo, we will use th
     
     <item>
       <title>Getting started</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/welcome/installation/</link>
+      <link>https://r4all.github.io/website/welcome/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/welcome/installation/</guid>
+      <guid>https://r4all.github.io/website/welcome/installation/</guid>
       <description>
 
 &lt;p&gt;The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;great documentation for beginners&lt;/a&gt;.&lt;/p&gt;
@@ -1067,10 +1067,10 @@ As soon as the generation of the index will be supported by hugo, we will use th
     
     <item>
       <title>Configuration</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/basics/configuration/</link>
+      <link>https://r4all.github.io/website/basics/configuration/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/basics/configuration/</guid>
+      <guid>https://r4all.github.io/website/basics/configuration/</guid>
       <description>
 
 &lt;h2 id=&#34;site-configuration&#34;&gt;Site configuration&lt;/h2&gt;
@@ -1177,10 +1177,10 @@ a:hover {
     
     <item>
       <title>Configuration</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/welcome/configuration/</link>
+      <link>https://r4all.github.io/website/welcome/configuration/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/welcome/configuration/</guid>
+      <guid>https://r4all.github.io/website/welcome/configuration/</guid>
       <description>
 
 &lt;h2 id=&#34;site-configuration&#34;&gt;Site configuration&lt;/h2&gt;
@@ -1287,10 +1287,10 @@ a:hover {
     
     <item>
       <title>Shortcodes</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/cont/shortcodes/</link>
+      <link>https://r4all.github.io/website/cont/shortcodes/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/cont/shortcodes/</guid>
+      <guid>https://r4all.github.io/website/cont/shortcodes/</guid>
       <description>
 
 &lt;p&gt;Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.&lt;/p&gt;
@@ -1403,15 +1403,15 @@ An warning disclaimer
     
     <item>
       <title>Archetypes</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/cont/archetypes/</link>
+      <link>https://r4all.github.io/website/cont/archetypes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/cont/archetypes/</guid>
+      <guid>https://r4all.github.io/website/cont/archetypes/</guid>
       <description>
 
 &lt;p&gt;Using the command: &lt;code&gt;hugo new [relative new content path]&lt;/code&gt;, you can start a content file with the date and title automatically set. While this is a welcome feature, active writers need more : &lt;a href=&#34;https://gohugo.io/content/archetypes/&#34;&gt;archetypes&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;It is pre-configured skeleton pages with default front matter. Please refer to the &lt;a href=&#34;https://matcornic.github.io/hugo-learn-doc/cont/pages/#types&#34;&gt;documentation&lt;/a&gt; for types of page to understand the differences.&lt;/p&gt;
+&lt;p&gt;It is pre-configured skeleton pages with default front matter. Please refer to the &lt;a href=&#34;https://r4all.github.io/website/cont/pages/#types&#34;&gt;documentation&lt;/a&gt; for types of page to understand the differences.&lt;/p&gt;
 
 &lt;h2 id=&#34;chapter&#34;&gt;Chapter&lt;/h2&gt;
 
@@ -1459,6 +1459,240 @@ Lorem Ipsum
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;em&gt;Don&amp;rsquo;t forget that Hugo-theme-learn supports only one level under a chapter&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hook your students</title>
+      <link>https://r4all.github.io/website/posts/hook-your-students/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/hook-your-students/</guid>
+      <description>
+
+&lt;h1 id=&#34;hook-your-data-analysis-students&#34;&gt;Hook your data analysis students&lt;/h1&gt;
+
+&lt;p&gt;Three hundred students await the opening lecture of their first undergraduate course about data analysis. Some are eager to get going, others are eager to get out of class. Some are uncertain they can succeed, others are hoping for a challenge. For all, first impressions count &amp;ndash; whatever happens in this first lecture will shape their experience of the whole course. It better be bloody good.&lt;/p&gt;
+
+&lt;p&gt;Faced with this situation (more or less), I decided to give a live data analysis demonstration. Do the whole process, from question to answer, including data collection. Show them the whole process, and refer back to it again and again during the course. The challenge is to solve problems with data. That is what the course is all about. I also decided we&amp;rsquo;d analyse something about them, figuring (hoping) this would get them interested and engaged. I also knew I had about 1 hour, and it absolutely had to work.&lt;/p&gt;
+
+&lt;p&gt;I and the other staff on the course did lots of things that, I believe, contributed to the above average student evaluations for the course (including greater than average workload), 97% of the class passing the final exam, and us all having a great time. But I&amp;rsquo;m pretty sure the live data demo in the first class really helped. If you want the details, read on. If not, just remember, you have one chance to hook your students. Make it happen.&lt;/p&gt;
+
+&lt;p&gt;The details: We tackled the question of whether reaction times differed between genders. Students used their laptops, tablets, phones, to measure their reaction time (there are lots of web pages for this). They entered their results into a google form in which entries were automatically controlled (e.g. only numbers between 0 and 1000). The google form made a google sheet that we read directly into R / RStudio. We visualised the data and discussed at some length, already deciding on the answer to the question. We confirmed that answer with a statistical test. We made a nice graph to communicate the results. We critiqued &amp;ndash; e.g. what was our sample and what was our population? We &lt;em&gt;did not&lt;/em&gt; discuss the R code, but they did see it working. Obviously I tested this, a lot, before that first class. It worked smoothly, and we&amp;rsquo;ll do something very similar next year &amp;ndash; I&amp;rsquo;m looking for things to quickly measure other than reaction times; please let me know if you&amp;rsquo;ve any ideas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project or Script?</title>
+      <link>https://r4all.github.io/website/posts/project-or-script/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/project-or-script/</guid>
+      <description>
+
+&lt;h2 id=&#34;projects-versus-scripts&#34;&gt;Projects versus Scripts&lt;/h2&gt;
+
+&lt;p&gt;In a recent twitter interaction with @HadleyWikham and @PadPadPad, there was a discussion about using a script that starts with &lt;code&gt;rm(list=ls())&lt;/code&gt; and &lt;code&gt;setwd()&lt;/code&gt; versus &lt;em&gt;RStudio Projects&lt;/em&gt;.  @HadleyWikham pointed out that using &lt;code&gt;rm(list=ls())&lt;/code&gt; and &lt;code&gt;setwd()&lt;/code&gt; was sub-optimal, not least because &lt;code&gt;rm(list =ls()&lt;/code&gt; does not truly reset R (get rid of datasets, packages and objects associated with one project before starting another) when you start analysing a new dataset, and there are potentially more efficient ways to define the folder (working directory) in which your scripts, data files and other things live on your computer.&lt;/p&gt;
+
+&lt;p&gt;While we agree, totally, this post is about multiple ways to achieve a holy grail of data analysis: whether you can share your analysis pipeline with yourself six months after not looking at it (e.g. post-submission of a manuscript) or colleagues and collaborators, without them (you) getting confused, and without using the wrong data.&lt;/p&gt;
+
+&lt;p&gt;This post lays out details about three ways to achieve similar end objectives - an organised collection of files needed to ensure shareable, repeatable and robust analysis of your data. A major component of this post is thus an attempt to help new users of R understand a bit about how to, and the value of, organising scripts, files that hold data and other notes about your research projects in clear and shareable ways.  It is targeted at new users of R, mostly.&lt;/p&gt;
+
+&lt;h2 id=&#34;some-definitions-to-start&#34;&gt;Some definitions to start&lt;/h2&gt;
+
+&lt;p&gt;Central to everything we talk about below are details about a few semi-technical terms about your computer.  Some are specific to operating systems, but most are not.  Lets get started with some big &amp;lsquo;ideas&amp;rsquo;.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;File System&lt;/li&gt;
+&lt;li&gt;Directory Structure&lt;/li&gt;
+&lt;li&gt;Directory Hierarchy&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;These three things exist on PCs, Macs and Unix/Linux machines. They are rather technical terms for rather simple things.  All of them are what you see when you use:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Windows Explorer&lt;/li&gt;
+&lt;li&gt;The Macintosh Finder&lt;/li&gt;
+&lt;li&gt;Any of the tools available on Unix and Linux distributions that lets you look at files&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Underneath these technical terms are simple ideas.  You make files on your computer using applications/programmes. These often have sets of 1-3 letters on the end of them, indicating in which application/programme they were made.  Microsoft Word produces files with .doc or .docx. R typically produces files with .R or .r at the end.  These are &lt;em&gt;file extenstions&lt;/em&gt; and give you information about what application/programme you used to make them, and helps your computer determine which application/programme to use when you ask to open them (via double clicking on the icon, for example).&lt;/p&gt;
+
+&lt;p&gt;When you make files on your computer, you store them on the computer&amp;rsquo;s hard drive.  How people do this is highly variable.  Some people make folders with very specific names, and then make folders inside these, and then put files inside these folders.&lt;/p&gt;
+
+&lt;p&gt;If you do this, you make and use a &lt;em&gt;directory hierarchy&lt;/em&gt; which has a &lt;em&gt;path&lt;/em&gt; associated with it.  The &lt;em&gt;path&lt;/em&gt; is the &lt;strong&gt;address&lt;/strong&gt; that the computer, and you, can use to identify where things are. Directory is just another word for a &lt;em&gt;folder&lt;/em&gt; on your computer!&lt;/p&gt;
+
+&lt;p&gt;For example, you may work like this.&lt;/p&gt;
+
+&lt;p&gt;Windows: &lt;code&gt;My Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;p&gt;Mac: &lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Each of these is a &lt;em&gt;path&lt;/em&gt; and defines a route to the _&lt;em&gt;AnalysisFolder&lt;/em&gt; on your computer.  Each of these words is also formally a &lt;em&gt;directory&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Because there are folders &amp;lsquo;nested&amp;rsquo; inside folders, and ultimately files inside these folders, we call this a `directory hierarchy&amp;rsquo;. It has a &lt;strong&gt;nested structure&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Note that some people don&amp;rsquo;t do this&amp;hellip;  or don&amp;rsquo;t seem to.  If you (or they) store stuff on your (their) desktop (yes, many do), don&amp;rsquo;t forget that the Desktop &lt;em&gt;is&lt;/em&gt; formally a folder too&amp;hellip;. really.  It is.  It also has a path.&lt;/p&gt;
+
+&lt;h2 id=&#34;three-ways-to-achieve-the-same-end&#34;&gt;Three Ways to Achieve the Same End&lt;/h2&gt;
+
+&lt;p&gt;The remainder of this post is about three different ways to achieve the same end.  All of them work.  It allows a bit of flexibility in how you do things.  It also allows people still not using RStudio (gasp) to achieve almost the same ends in two ways!  This can be good if you, like us, work with some hard to change dinosaurs!&lt;/p&gt;
+
+&lt;p&gt;The three ways are labelled as follows:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Script and Data in the SAME FOLDER&lt;/li&gt;
+&lt;li&gt;Script and Data in DIFFERENT FOLDERS (The Relatie Path Method)&lt;/li&gt;
+&lt;li&gt;The RStudio Project.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The first 2 &amp;lsquo;ways&amp;rsquo; are agnostic to whether you are using RStudio.  The third, obviously&amp;hellip;. requires RStudio!&lt;/p&gt;
+
+&lt;h2 id=&#34;method-1-script-and-data-in-the-same-folder&#34;&gt;METHOD 1: Script and Data in the SAME FOLDER&lt;/h2&gt;
+
+&lt;p&gt;Here we introduce what many may consider the &amp;lsquo;old skool&amp;rsquo; method.  It&amp;rsquo;s the way we used to work before RStudio, and before we got our heads screwed on straight, and before Windows and Mac and Linux distributions of R made the description of directory hierarchy independent of the direction of the &lt;code&gt;/&lt;/code&gt; (can you imagine!).&lt;/p&gt;
+
+&lt;h4 id=&#34;organising-principles-some-best-practice&#34;&gt;Organising Principles (some best practice)&lt;/h4&gt;
+
+&lt;p&gt;Over the years we have been using and teaching R, it has become clear to us that putting the script you use for an analysis, and the data you are analysing (e.g. the .csv file we recommend using), in the same folder, can be a useful thing.&lt;/p&gt;
+
+&lt;p&gt;There are a number of reasons for this.  There are a number of ways to make this happen as well.  Lets start with the basics.&lt;/p&gt;
+
+&lt;p&gt;Lets use the example folder hierarchy above, with an extra bit of detail added:&lt;/p&gt;
+
+&lt;p&gt;For Analysis: &lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;For Writing: &lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/TemperatureMansucript&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Here we&amp;rsquo;ve specified TWO files inside the TemperatureExperiment folder. If you were using Windows Explorer or the Finder (or the equivalent in Linux/Unix), AND you were looking AT the TemperatureExperiment folder, you would see two folders (directories) inside that one:&lt;/p&gt;
+
+&lt;p&gt;ADD WINDOWS AND MAC PICTURES&lt;/p&gt;
+
+&lt;p&gt;We think this is ONE form of best practice.  It creates a place on your computer where a research project or activity can be found, using a name (TemperatureExperiment2017) that contains both information about the research activity - it&amp;rsquo;s your experiment examining the effects of temperature - and something about when it was done (2017).  This folder is in a place where you keep projects that you are trying to turn into papers you want to publish in journals, for example. That&amp;rsquo;s why it&amp;rsquo;s called manuscripts.&lt;/p&gt;
+
+&lt;h4 id=&#34;ok-what-s-the-real-value&#34;&gt;OK - what&amp;rsquo;s the real value?&lt;/h4&gt;
+
+&lt;p&gt;There is something special about the way R and RStudio work when you organise things like this.  The &lt;strong&gt;something special&lt;/strong&gt; is that whenever you go to the folder that has an R script in it, and you open it (using R or RStudio), R assumes that the working directory - the folder where it will FIRST look to find things, is the very folder in which you&amp;rsquo;ve stored the script.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s think this through with an example. Let&amp;rsquo;s assume that the Temperature experiment DATA are stored in the &lt;code&gt;TempExpData2017.csv&lt;/code&gt; file.  Let&amp;rsquo;s assume that you&amp;rsquo;ve also created a script to analyse these data, called &lt;code&gt;TempExpAnalysis2017.R&lt;/code&gt;.  Finally, let&amp;rsquo;s assume that you&amp;rsquo;ve stored both of these inside the &lt;code&gt;TemperatureExperiment2017&lt;/code&gt; folder (directory).  If we just look at &lt;strong&gt;paths&lt;/strong&gt; it looks like this&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder/TempExpData2017.csv&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder/TempExpAnalysis2017.R&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This is what it might look like on your PC/Mac:&lt;/p&gt;
+
+&lt;p&gt;2PICTURES&lt;/p&gt;
+
+&lt;p&gt;You could practice here to see if this works.  If you have a dataset in a csv file, and a script, and you put them in the same folder, and then you double click on the script, you should find that R is looking inside that folder.  How do you prove this to yourself?  One way is to type the follwing into the console of R or RStudio.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r, eval = FALSE&#34;&gt;
+# where is R looking
+getwd()
+
+# can I see the files inside this folder?
+list.files()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If this works, and your folder ONLY has the R script and .csv file, you will see&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The path listed, such as &lt;code&gt;Documents/Manuscripts/TemperatureExperiment2017/AnalysisFolder/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Then, TWO file listed.  The dataset, e.g.: &lt;code&gt;TempExpData2017.csv&lt;/code&gt; and the script, e.g.: &lt;code&gt;TempExpAnalysis2017.R&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&#34;the-real-value&#34;&gt;The REAL value.&lt;/h4&gt;
+
+&lt;p&gt;At this point, many of you will have realised something special.  Once you organise your files like this, and open a script like this, the things you need the most (the data and the script) or lurking in the same place on your computer AND R/RStudio has assumed that everything the script needs (the data) to run are right here.&lt;/p&gt;
+
+&lt;p&gt;As we discuss in our book, Getting Started with R: An Introduction for Biologists, there are now two ways you can import the data at this point.  Both are MUCH easier having set your research life up in such an organised manner as we described above.&lt;/p&gt;
+
+&lt;h4 id=&#34;using-rstudio-importdata-functionality&#34;&gt;Using RStudio ImportData functionality&lt;/h4&gt;
+
+&lt;p&gt;In the latest version of RStudio (this is written with 1.0.136), the Import Dataset functionality is now found in the File menu.  In older version, you might find it in the Files tab on the lower right window of RStudio.&lt;/p&gt;
+
+&lt;p&gt;The RStudio functionality allows you to import lots of different types of files.  We won&amp;rsquo;t go into detail about why we still recommend .csv files for storage, but suffice it to say, if you use &lt;code&gt;RStudio-&amp;gt;File-&amp;gt;ImportDataset-&amp;gt;Browse&lt;/code&gt;, the dialogue box that comes up will AUTOMATICALLY be looking in the folder in which the script you&amp;rsquo;ve opened is living.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/FileImportBox_RStudio.png&#34; alt=&#34;The RStudio DataImport Dialogue box is looking at my working directory (folder) by default if I opened the script by double clicking it.&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;using-read-csv-or-read-csv-in-your-script&#34;&gt;Using &lt;code&gt;read.csv()&lt;/code&gt; or &lt;code&gt;read_csv()&lt;/code&gt; in your script.&lt;/h4&gt;
+
+&lt;p&gt;If you look carefully above, there is a &lt;em&gt;Code Preview&lt;/em&gt; in the lower right hand corner of the big dialogue box.  It indicates that RStudio is using the library &lt;code&gt;readr&lt;/code&gt; and that it is using the function &lt;code&gt;read_csv()&lt;/code&gt; to import the data.&lt;/p&gt;
+
+&lt;p&gt;The point we want to make at this point is that it is possible to add such code directly to your script.  We like aspects of this idea because it embeds in your script, for others (collaborators etc) to see, the name of your dataset.&lt;/p&gt;
+
+&lt;p&gt;To make everything clear, we recommend rather substantial commenting, for example.&lt;/p&gt;
+
+&lt;p&gt;```{r, eval = FALSE}&lt;/p&gt;
+
+&lt;h1 id=&#34;this-script-is-working-in-the-manuscrips-temperatureexperiment2017-analysisfolder-directory&#34;&gt;This script is working in the Manuscrips/TemperatureExperiment2017/AnalysisFolder directory&lt;/h1&gt;
+
+&lt;h1 id=&#34;it-contains-the-analysis-of-the-tempexpdata2017-csv-dataset&#34;&gt;It contains the analysis of the TempExpData2017.csv dataset&lt;/h1&gt;
+
+&lt;h1 id=&#34;the-dataset-contains-information-on-population-sizes-of-3-species-of-protists-populations-at-4-different-temperatures-18-20-22-and-28-c-over-100-days-of-observation&#34;&gt;The dataset contains information on population sizes of 3 species of protists populations at 4 different temperatures (18, 20, 22 and 28 C) over 100 days of observation.&lt;/h1&gt;
+
+&lt;h1 id=&#34;here-we-use-read-csv-to-get-the-data-in-assume-i-have-opened-the-script-by-double-clicking-it-in-this-directory-manuscrips-temperatureexperiment2017&#34;&gt;here we use read.csv() to get the data in.  Assume I have opened the script by double clicking it IN THIS DIRECTORY Manuscrips/TemperatureExperiment2017/&lt;/h1&gt;
+
+&lt;h1 id=&#34;the-data&#34;&gt;THE DATA&lt;/h1&gt;
+
+&lt;p&gt;TempData &amp;lt;- read.csv(&amp;lsquo;TempExpData2017.csv&amp;rsquo;)
+````&lt;/p&gt;
+
+&lt;p&gt;As an aside, it is totally possibe to open RStudio FIRST and set your working directory to this folder where all good things are living&amp;hellip;.The RStudio -&amp;gt; Session -&amp;gt; Set Working Directory functionality allows you to do this.  If you work this way, it is nigh on imperitive that you annotate CLEARLY.&lt;/p&gt;
+
+&lt;h4 id=&#34;recap-data-and-script-in-the-same-folder&#34;&gt;Recap: Data and Script in the same Folder&lt;/h4&gt;
+
+&lt;p&gt;If you work this way, and open R and RStudio by clicking the file inside the folder containing the data, R and RStudio ASSUME that the &lt;em&gt;working directory&lt;/em&gt; is this folder, and the data will be found here.  That&amp;rsquo;s why we can simply write &lt;code&gt;TempData &amp;lt;- read.csv(&#39;TempExpData2017.csv&#39;)&lt;/code&gt; without any other information about the location of the file on your computer.  R and RStudio are looking at it already.&lt;/p&gt;
+
+&lt;p&gt;TOP TIP, made clear by @HadleyWikham.  IF you want to start working on another project after you&amp;rsquo;ve worked on this one, and you want to ensure that the current data, current script and any objects you&amp;rsquo;ve used/made for this analysis, are &lt;em&gt;not&lt;/em&gt; in your way, &lt;em&gt;quit&lt;/em&gt; RStudio &amp;reg; and then open the next project by double clcking on the Script of Choice.&lt;/p&gt;
+
+&lt;p&gt;This is a strong indication that this method is weak on the &amp;lsquo;reset&amp;rsquo; R idea&amp;hellip;.&lt;/p&gt;
+
+&lt;p&gt;TOP TIP 2: Note that with this method, &lt;code&gt;rm(list = ls())&lt;/code&gt; is not necessary.  If you start RStudio/R &lt;em&gt;fresh&lt;/em&gt; (e.g. it is &lt;em&gt;not&lt;/em&gt; running) by clicking on a script inside a folder with the data, it is effectively a &lt;em&gt;reset&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;method-2-script-and-data-in-different-folders-the-relatie-path-method&#34;&gt;METHOD 2:Script and Data in DIFFERENT FOLDERS (The Relatie Path Method)&lt;/h2&gt;
+
+&lt;p&gt;Dylan to Add Relative File Path Shite&lt;/p&gt;
+
+&lt;h2 id=&#34;method-3-the-rstudio-project&#34;&gt;METHOD 3: The RStudio Project&lt;/h2&gt;
+
+&lt;p&gt;Of course, we leave it to last to point out that the friendly neighbourhood Open Source RStudio gurus have put a lot of thought into this.  In fact, back to our twitter interaction, they thought a lot about the &amp;lsquo;reset&amp;rsquo; and the working directory.  And then there were Projects&lt;/p&gt;
+
+&lt;h4 id=&#34;what-it-does&#34;&gt;What it does&lt;/h4&gt;
+
+&lt;h4 id=&#34;how-to-make-it&#34;&gt;How to make it&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/Step_1_File_NewProject.png&#34; alt=&#34;Step 1: File -&amp;gt; New Project&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>geom_col versus geom_bar</title>
+      <link>https://r4all.github.io/website/posts/geom-col-versus-geom-bar/</link>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://r4all.github.io/website/posts/geom-col-versus-geom-bar/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;div id=&#34;new-stuff-in-ggplot-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;New Stuff in ggplot 2&lt;/h2&gt;
+&lt;p&gt;This is part 1 of an occaisional series we will publish updating/augmenting several pieces of the graphing detail in Getting Started with R.&lt;/p&gt;
+&lt;div id=&#34;bar-charts---the-bane-of-our-existence-just-got-a-bit-easier&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Bar Charts - the bane of our existence just got a bit easier&lt;/h3&gt;
+&lt;p&gt;We don’t advocate using bar charts very often&lt;/p&gt;
+&lt;p&gt;Presenting contingency table data is one time it seems OK.&lt;/p&gt;
+&lt;p&gt;geom_bar(stat=‘identity’) == don’t do nowt, do what I told you&lt;/p&gt;
+&lt;p&gt;NOW&lt;/p&gt;
+&lt;p&gt;geom_col()&lt;/p&gt;
+&lt;p&gt;IF you are gonna use em…&lt;/p&gt;
+&lt;p&gt;geom_col() geom_errorbar()&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     

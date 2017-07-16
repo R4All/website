@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome on Hugo Learn Theme</title>
-    <link>https://matcornic.github.io/hugo-learn-doc/welcome/index.xml</link>
-    <description>Recent content in Welcome on Hugo Learn Theme</description>
+    <title>Welcome on The R4All Website</title>
+    <link>https://r4all.github.io/website/welcome/index.xml</link>
+    <description>Recent content in Welcome on The R4All Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
-    <atom:link href="https://matcornic.github.io/hugo-learn-doc/welcome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://r4all.github.io/website/welcome/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>What is this Hugo theme ?</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/welcome/what-is-this-hugo-theme/</link>
+      <link>https://r4all.github.io/website/welcome/what-is-this-hugo-theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/welcome/what-is-this-hugo-theme/</guid>
+      <guid>https://r4all.github.io/website/welcome/what-is-this-hugo-theme/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; is a theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a fast and modern static website engine written in Go. Where Hugo is often used for blogs, this theme is fully designed for &lt;strong&gt;technical documentation&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;This theme is a partial porting of the &lt;a href=&#34;http://learn.getgrav.org/&#34;&gt;Learn theme&lt;/a&gt; of &lt;a href=&#34;https://getgrav.org/&#34;&gt;Grav&lt;/a&gt;, a modern flat-file CMS written in PHP.&lt;/p&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Requirements</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/welcome/requirements/</link>
+      <link>https://r4all.github.io/website/welcome/requirements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/welcome/requirements/</guid>
+      <guid>https://r4all.github.io/website/welcome/requirements/</guid>
       <description>&lt;p&gt;Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.&lt;/p&gt;
 
 &lt;p&gt;Just download &lt;a href=&#34;https://gohugo.io/overview/installing/&#34;&gt;Hugo&lt;/a&gt; binary for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.&lt;/p&gt;
@@ -41,10 +41,10 @@
     
     <item>
       <title>Getting started</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/welcome/installation/</link>
+      <link>https://r4all.github.io/website/welcome/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/welcome/installation/</guid>
+      <guid>https://r4all.github.io/website/welcome/installation/</guid>
       <description>
 
 &lt;p&gt;The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;great documentation for beginners&lt;/a&gt;.&lt;/p&gt;
@@ -145,10 +145,10 @@ As soon as the generation of the index will be supported by hugo, we will use th
     
     <item>
       <title>Configuration</title>
-      <link>https://matcornic.github.io/hugo-learn-doc/welcome/configuration/</link>
+      <link>https://r4all.github.io/website/welcome/configuration/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://matcornic.github.io/hugo-learn-doc/welcome/configuration/</guid>
+      <guid>https://r4all.github.io/website/welcome/configuration/</guid>
       <description>
 
 &lt;h2 id=&#34;site-configuration&#34;&gt;Site configuration&lt;/h2&gt;
