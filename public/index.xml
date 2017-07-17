@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The R4All Website</title>
-    <link>/index.xml</link>
+    <link>https://r4all.github.io/website/index.xml</link>
     <description>Recent content on The R4All Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://r4all.github.io/website/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Who are we?</title>
-      <link>/courses/who-are-we/</link>
+      <link>https://r4all.github.io/website/courses/who-are-we/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/courses/who-are-we/</guid>
+      <guid>https://r4all.github.io/website/courses/who-are-we/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;images/andrew_owen.jpg&#34; alt=&#34;Andrew &amp;amp; Owen&#34; /&gt;&lt;/p&gt;
@@ -46,10 +46,10 @@ Dylan is a population biologist with pure and applied research interests. He use
     
     <item>
       <title>Who are we?</title>
-      <link>/welcome/who-are-we/</link>
+      <link>https://r4all.github.io/website/welcome/who-are-we/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/welcome/who-are-we/</guid>
+      <guid>https://r4all.github.io/website/welcome/who-are-we/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;images/andrew_owen.jpg&#34; alt=&#34;Andrew &amp;amp; Owen&#34; /&gt;&lt;/p&gt;
@@ -81,10 +81,10 @@ Dylan is a population biologist with pure and applied research interests. He use
     
     <item>
       <title>Our philosophy</title>
-      <link>/courses/our-philosophy/</link>
+      <link>https://r4all.github.io/website/courses/our-philosophy/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>/courses/our-philosophy/</guid>
+      <guid>https://r4all.github.io/website/courses/our-philosophy/</guid>
       <description>&lt;p&gt;For the uninitiated, R has a rather steep learning curve. We’ve developed a functional, example based approach to boosting you up the steepest part of the curve. We also focus on teaching you how to use R in a way that maximises your efficiency, productivity, and sanity. We start with that often elusive step of how to get your data into R…..&lt;/p&gt;
 
 &lt;p&gt;We pay special attention to equipping you to learn. We equip you with a solid foundation of skills, knowledge, and experience so that you can can acquire new R skills as and when you need them.&lt;/p&gt;
@@ -99,10 +99,10 @@ Dylan is a population biologist with pure and applied research interests. He use
     
     <item>
       <title>Our philosophy</title>
-      <link>/welcome/our-philosophy/</link>
+      <link>https://r4all.github.io/website/welcome/our-philosophy/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>/welcome/our-philosophy/</guid>
+      <guid>https://r4all.github.io/website/welcome/our-philosophy/</guid>
       <description>&lt;p&gt;For the uninitiated, R has a rather steep learning curve. We’ve developed a functional, example based approach to boosting you up the steepest part of the curve. We also focus on teaching you how to use R in a way that maximises your efficiency, productivity, and sanity. We start with that often elusive step of how to get your data into R…..&lt;/p&gt;
 
 &lt;p&gt;We pay special attention to equipping you to learn. We equip you with a solid foundation of skills, knowledge, and experience so that you can can acquire new R skills as and when you need them.&lt;/p&gt;
@@ -117,10 +117,10 @@ Dylan is a population biologist with pure and applied research interests. He use
     
     <item>
       <title>Hook your students</title>
-      <link>/posts/hook-your-students/</link>
+      <link>https://r4all.github.io/website/posts/hook-your-students/</link>
       <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/posts/hook-your-students/</guid>
+      <guid>https://r4all.github.io/website/posts/hook-your-students/</guid>
       <description>
 
 &lt;h1 id=&#34;hook-your-data-analysis-students&#34;&gt;Hook your data analysis students&lt;/h1&gt;
@@ -137,10 +137,10 @@ Dylan is a population biologist with pure and applied research interests. He use
     
     <item>
       <title>Project or Script?</title>
-      <link>/posts/project-or-script/</link>
+      <link>https://r4all.github.io/website/posts/project-or-script/</link>
       <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/posts/project-or-script/</guid>
+      <guid>https://r4all.github.io/website/posts/project-or-script/</guid>
       <description>
 
 &lt;h2 id=&#34;projects-versus-scripts&#34;&gt;Projects versus Scripts&lt;/h2&gt;
@@ -323,10 +323,10 @@ list.files()
     
     <item>
       <title>geom_col versus geom_bar</title>
-      <link>/posts/geom-col-versus-geom-bar/</link>
+      <link>https://r4all.github.io/website/posts/geom-col-versus-geom-bar/</link>
       <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/posts/geom-col-versus-geom-bar/</guid>
+      <guid>https://r4all.github.io/website/posts/geom-col-versus-geom-bar/</guid>
       <description>&lt;!-- BLOGDOWN-HEAD --&gt;
 &lt;!-- /BLOGDOWN-HEAD --&gt;
 
@@ -351,10 +351,10 @@ list.files()
     
     <item>
       <title>working with dinosaurs</title>
-      <link>/posts/working-with-dinosaurs/</link>
+      <link>https://r4all.github.io/website/posts/working-with-dinosaurs/</link>
       <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/posts/working-with-dinosaurs/</guid>
+      <guid>https://r4all.github.io/website/posts/working-with-dinosaurs/</guid>
       <description>&lt;p&gt;&lt;em&gt;‘We will one day all be dinosauRs’&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Fashion happens, even in R. It seems like everyone HAS to learn the tidyverse, and at least the data management tools of dplyr and the graphing tools of ggplot2. It’s so hot! It is quite cool. But it has created dinosauRs - people weaned and reared on the milk of base R. base R is nutritious and good. But it scares the new tidypeople. And the base R dinosauRs are sometimes scared or even ambivalent to tidypeople.&lt;/p&gt;
 &lt;p&gt;Why change? It’s consistent, fast, effective and makes working with data and graphs for data wrangling, data science and plain old science more easy and more fun. We think. But it is not required, and not the end of the world if someone doesn’t know or use it.&lt;/p&gt;
@@ -621,7 +621,7 @@ subset(compensation_br, subset = Fruit &amp;gt; 80, select = Root)&lt;/code&gt;&
 &lt;p&gt;We adhere to the principle, in base graphics, that the question you are asking and the data you are plotting go hand-in-hand. With the data we are using lets use Fruit as our response variable and Root as the continuous explanatory variable, and Grazing as our categorical explanatory variable. Lets assume that we are looking at Fruit set on apple trees as a function of the grafted root stock width and whether cows have been allowed to graze underneath them or not (reducing competition by eating the grass, of course).&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;plot()&lt;/code&gt; function that is at the heart of base graphics can take a formulae as it’s first argument. We always like(d) this. We start with the &lt;em&gt;regression&lt;/em&gt; part of the model - &lt;code&gt;Fruit ~ Root&lt;/code&gt; where &lt;code&gt;~&lt;/code&gt; translates “is a function of…”. Lets also not forget that &lt;code&gt;plot()&lt;/code&gt; takes a data argument too.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(Fruit ~ Root, data = compensation_br)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-13-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;At this point, and to keep this focused, lets decide on a few things to do to this graph:&lt;/p&gt;
 &lt;p&gt;1)Let’s colour the points by the Grazing factor 2)Let’s double the size of the points, and make them filled 3)Lets customise the x- and y-axis labels, changing the words 4)Add a legend in the top left&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;plot(Fruit ~ Root, data = compensation_br, 
@@ -640,7 +640,7 @@ subset(compensation_br, subset = Fruit &amp;gt; 80, select = Root)&lt;/code&gt;&
 # add the legend, after the graph is made.
 legend(&amp;#39;topleft&amp;#39;, col=c(&amp;#39;brown&amp;#39;,&amp;#39;green&amp;#39;), 
        pch = 19, legend = c(&amp;quot;Grazed&amp;quot;,&amp;quot;Ungrazed&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-14-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;the-ggplot2-hipster-might-do-something-like-this.&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;The ggplot2 hipsteR might do something like this.&lt;/h2&gt;
@@ -648,7 +648,7 @@ legend(&amp;#39;topleft&amp;#39;, col=c(&amp;#39;brown&amp;#39;,&amp;#39;green&a
 &lt;p&gt;We begin with the foundation layer of the graph. Just the points, axes and labels.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(compensation_tv, aes(x = Root, y = Fruit))+
   geom_point()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-15-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;If you are not super up2speed with ggplot2:&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;it always starts with the data frame… that is the first argument&lt;/li&gt;
@@ -666,7 +666,7 @@ legend(&amp;#39;topleft&amp;#39;, col=c(&amp;#39;brown&amp;#39;,&amp;#39;green&a
   geom_point(size = 2)+
   xlab(&amp;quot;Root Stock (mm)&amp;quot;) + ylab(&amp;quot;Fruit Harvest (kg)&amp;quot;)+
   theme_bw()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-16-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;We’ve deliberately not finished, just to show what a few keywords in ggplot2 do.&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;colour, in the aesthetics, does what &lt;code&gt;col = c(&#39;brown&#39;,&#39;green&#39;)[Grazing]&lt;/code&gt; does in base graphics, but uses some default colours.&lt;/li&gt;
@@ -681,7 +681,7 @@ legend(&amp;#39;topleft&amp;#39;, col=c(&amp;#39;brown&amp;#39;,&amp;#39;green&a
   xlab(&amp;quot;Root Stock (mm)&amp;quot;) + ylab(&amp;quot;Fruit Harvest (kg)&amp;quot;)+
   scale_colour_manual(values = c(Grazed = &amp;#39;brown&amp;#39;, Ungrazed = &amp;#39;green&amp;#39;))+
   theme_bw()&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://r4all.github.io/website/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-17-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;summary-1&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Summary&lt;/h2&gt;
@@ -697,10 +697,10 @@ legend(&amp;#39;topleft&amp;#39;, col=c(&amp;#39;brown&amp;#39;,&amp;#39;green&a
     
     <item>
       <title>A Plain Markdown Post</title>
-      <link>/posts/2016-12-30-hello-markdown/</link>
+      <link>https://r4all.github.io/website/posts/2016-12-30-hello-markdown/</link>
       <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
       
-      <guid>/posts/2016-12-30-hello-markdown/</guid>
+      <guid>https://r4all.github.io/website/posts/2016-12-30-hello-markdown/</guid>
       <description>&lt;p&gt;This is a post written in plain Markdown (&lt;code&gt;*.md&lt;/code&gt;) instead of R Markdown (&lt;code&gt;*.Rmd&lt;/code&gt;). The major differences are:&lt;/p&gt;
 
 &lt;ol&gt;
@@ -736,10 +736,10 @@ legend(&amp;#39;topleft&amp;#39;, col=c(&amp;#39;brown&amp;#39;,&amp;#39;green&a
     
     <item>
       <title>Hello R Markdown</title>
-      <link>/posts/2015-07-23-r-rmarkdown/</link>
+      <link>https://r4all.github.io/website/posts/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/posts/2015-07-23-r-rmarkdown/</guid>
+      <guid>https://r4all.github.io/website/posts/2015-07-23-r-rmarkdown/</guid>
       <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;R Markdown&lt;/h1&gt;
 &lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34; class=&#34;uri&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
@@ -773,7 +773,7 @@ pie(
   init.angle = -50, border = NA
 )&lt;/code&gt;&lt;/pre&gt;
 &lt;div class=&#34;figure&#34;&gt;&lt;span id=&#34;fig:pie&#34;&gt;&lt;/span&gt;
-&lt;img src=&#34;/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
+&lt;img src=&#34;https://r4all.github.io/website/post/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png&#34; alt=&#34;A fancy pie chart.&#34; width=&#34;672&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
@@ -784,10 +784,10 @@ Figure 1: A fancy pie chart.
     
     <item>
       <title>Lorem Ipsum</title>
-      <link>/posts/2015-01-01-lorem-ipsum/</link>
+      <link>https://r4all.github.io/website/posts/2015-01-01-lorem-ipsum/</link>
       <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
       
-      <guid>/posts/2015-01-01-lorem-ipsum/</guid>
+      <guid>https://r4all.github.io/website/posts/2015-01-01-lorem-ipsum/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Lorem ipsum&lt;/strong&gt; dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore &lt;em&gt;magna aliqua&lt;/em&gt;. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
     </item>

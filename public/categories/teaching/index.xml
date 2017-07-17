@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on The R4All Website</title>
-    <link>/categories/teaching/index.xml</link>
+    <link>https://r4all.github.io/website/categories/teaching/index.xml</link>
     <description>Recent content in Teaching on The R4All Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://r4all.github.io/website/categories/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hook your students</title>
-      <link>/posts/hook-your-students/</link>
+      <link>https://r4all.github.io/website/posts/hook-your-students/</link>
       <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/posts/hook-your-students/</guid>
+      <guid>https://r4all.github.io/website/posts/hook-your-students/</guid>
       <description>
 
 &lt;h1 id=&#34;hook-your-data-analysis-students&#34;&gt;Hook your data analysis students&lt;/h1&gt;
