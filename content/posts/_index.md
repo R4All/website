@@ -1,7 +1,7 @@
 ---
 title: Posts
-weight: 5
-icon: "<b></b>"
+chapte: true
+weight: 10
 ---
 
 ### Posts

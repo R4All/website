@@ -1,11 +1,8 @@
 ---
 title: Welcome
+chapter: true
 weight: 0
-icon: "<b></b>"
 ---
 
-### Welcome
+### Welcome to R4All
 
-
-
-Welcome to R4All
