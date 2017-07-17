@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome on The R4All Website</title>
-    <link>/welcome/index.xml</link>
+    <link>https://r4all.github.io/website/welcome/index.xml</link>
     <description>Recent content in Welcome on The R4All Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
-    <atom:link href="/welcome/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://r4all.github.io/website/welcome/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Who are we?</title>
-      <link>/welcome/who-are-we/</link>
+      <link>https://r4all.github.io/website/welcome/who-are-we/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/welcome/who-are-we/</guid>
+      <guid>https://r4all.github.io/website/welcome/who-are-we/</guid>
       <description>
 
 &lt;p&gt;&lt;img src=&#34;images/andrew_owen.jpg&#34; alt=&#34;Andrew &amp;amp; Owen&#34; /&gt;&lt;/p&gt;
@@ -46,10 +46,10 @@ Dylan is a population biologist with pure and applied research interests. He use
     
     <item>
       <title>Our philosophy</title>
-      <link>/welcome/our-philosophy/</link>
+      <link>https://r4all.github.io/website/welcome/our-philosophy/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>/welcome/our-philosophy/</guid>
+      <guid>https://r4all.github.io/website/welcome/our-philosophy/</guid>
       <description>&lt;p&gt;For the uninitiated, R has a rather steep learning curve. We’ve developed a functional, example based approach to boosting you up the steepest part of the curve. We also focus on teaching you how to use R in a way that maximises your efficiency, productivity, and sanity. We start with that often elusive step of how to get your data into R…..&lt;/p&gt;
 
 &lt;p&gt;We pay special attention to equipping you to learn. We equip you with a solid foundation of skills, knowledge, and experience so that you can can acquire new R skills as and when you need them.&lt;/p&gt;
