@@ -1,66 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome on The R4All Website</title>
-    <link>https://r4all.github.io/website/courses/index.xml</link>
-    <description>Recent content in Welcome on The R4All Website</description>
+    <title>Courses on The R4All Website</title>
+    <link>/courses/index.xml</link>
+    <description>Recent content in Courses on The R4All Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
-    <atom:link href="https://r4all.github.io/website/courses/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Who are we?</title>
-      <link>https://r4all.github.io/website/courses/who-are-we/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://r4all.github.io/website/courses/who-are-we/</guid>
-      <description>
-
-&lt;p&gt;&lt;img src=&#34;images/andrew_owen.jpg&#34; alt=&#34;Andrew &amp;amp; Owen&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;dr-andrew-beckerman-https-www-sheffield-ac-uk-aps-staff-and-students-acadstaff-beckerman-left&#34;&gt;&lt;a href=&#34;https://www.sheffield.ac.uk/aps/staff-and-students/acadstaff/beckerman&#34;&gt;Dr. Andrew Beckerman&lt;/a&gt; (left)&lt;/h3&gt;
-
-&lt;p&gt;Senior Lecturer in the Department of Animal and Plant Sciences, University of Sheffield
-Andrew’s research centres on phenotypic plasticity, food webs, and the many processes that link behaviour, population dynamics, and community structure. His phenotypic plasticity research extends from the genetic and endocrine basis of plasticity through to the community consequences of it (mostly of Daphnia). His work on food webs aims to reveal how foraging behaviour constrains the complexity and structure of large food webs. He also dabbles in parrot conservation. Andrew has used R for about 12 years, with particular expertise in general and generalised linear models, survival analysis, mixed effects models and programming.&lt;/p&gt;
-
-&lt;h3 id=&#34;dr-owen-petchey-http-www-ieu-uzh-ch-en-staff-member-petchey-owen-html-right&#34;&gt;&lt;a href=&#34;http://www.ieu.uzh.ch/en/staff/member/petchey_owen.html&#34;&gt;Dr. Owen Petchey&lt;/a&gt; (right)&lt;/h3&gt;
-
-&lt;p&gt;Associate Professor, Institute of Evolutionary Biology and Environmental Studies, University of Zurich
-Owen’s research focuses on the causes and consequences of extinctions in a changing world. His group performs experiments with microbial communities, models the structure of food webs, analyses variation in biodiversity, and does fieldwork in Iceland, the UK, Switzerland, and the Seychelles. Owen has also used R for about 12 years, and has particular expertise in multivariate statistics, spatial data, programming, maximum likelihood estimation, and advanced visualisation (i.e., nice graphs!).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;images/dylan.jpg&#34; alt=&#34;Dylan&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;dr-dylan-childs-https-www-sheffield-ac-uk-aps-staff-and-students-acadstaff-childs-top&#34;&gt;&lt;a href=&#34;https://www.sheffield.ac.uk/aps/staff-and-students/acadstaff/childs&#34;&gt;Dr. Dylan Childs&lt;/a&gt; (top)&lt;/h3&gt;
-
-&lt;p&gt;NERC Research Fellow and Lecturer in the Department of Animal and Plant Sciences, University of Sheffield
-Dylan is a population biologist with pure and applied research interests. He uses models to understand population dynamics and natural selection in laboratory and free-living populations, with a particular emphasis on how demographic and ecological processes interact to shape selection in changing environments. Dylan has been using R for over 10 years, and has extensive experience using C and WinBugs.&lt;/p&gt;
-
-&lt;h3 id=&#34;dr-natalie-cooper&#34;&gt;Dr Natalie Cooper&lt;/h3&gt;
-
-&lt;p&gt;TBD.&lt;/p&gt;
-
-&lt;p&gt;Owen, Dylan, Andrew &amp;amp; Natalie have experience with Windows and OS X and are at least familiar with Mathematica, C variants, Matlab, Octave, Excel, Minitab, Systat, Sigmaplot, SAS, and GLIM.  However, they use only R (and some C variants).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Our philosophy</title>
-      <link>https://r4all.github.io/website/courses/our-philosophy/</link>
-      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
-      
-      <guid>https://r4all.github.io/website/courses/our-philosophy/</guid>
-      <description>&lt;p&gt;For the uninitiated, R has a rather steep learning curve. We’ve developed a functional, example based approach to boosting you up the steepest part of the curve. We also focus on teaching you how to use R in a way that maximises your efficiency, productivity, and sanity. We start with that often elusive step of how to get your data into R…..&lt;/p&gt;
-
-&lt;p&gt;We pay special attention to equipping you to learn. We equip you with a solid foundation of skills, knowledge, and experience so that you can can acquire new R skills as and when you need them.&lt;/p&gt;
-
-&lt;p&gt;The core functional portion of our courses is a module on importing data, exploring data and visualising data. This module provides the foundation on which we build all other components and provides a consistent approach to all methods in R.&lt;/p&gt;
-
-&lt;p&gt;We use informative, interactive lectures with directed and self-directed practicals.&lt;/p&gt;
-
-&lt;p&gt;We are also a bit geeky and love to talk about R after work (at the pub, etc.)!&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
