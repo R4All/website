@@ -1,7 +1,7 @@
 ---
 title: Posts
 weight: 5
-icon: "<b>2. </b>"
+icon: "<b></b>"
 ---
 
 ### Posts

@@ -5,7 +5,7 @@ theme = "hugo-theme-learn"
 MetaDataFormat = "yaml"
 
 [params]
-  editURL = "https://github.com/R4All/website/master/content/"
+  editURL = "https://github.com/R4All/website/sources/content/"
   description = "The R4All Website"
   author = "ODAN"
   autoNav = true
