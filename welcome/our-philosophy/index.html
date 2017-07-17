@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 
     
-    <title>A Plain Markdown Post</title>
+    <title>Our philosophy</title>
     <link href="//css/nucleus.css" rel="stylesheet">
     <link href="//css/font-awesome.min.css" rel="stylesheet">
     <link href="//css/hybrid.css" rel="stylesheet">
@@ -25,7 +25,7 @@
     
 
   </head>
-  <body class="" data-url="/posts/2016-12-30-hello-markdown/">
+  <body class="" data-url="/welcome/our-philosophy/">
     
     <nav id="sidebar">
   <div id="header-wrapper">
@@ -173,7 +173,7 @@
       
       
 
-      <li class="dd-item  " data-nav-id="/welcome/">
+      <li class="dd-item  parent" data-nav-id="/welcome/">
         <a href="/welcome/">
           <span>
             
@@ -192,7 +192,7 @@
               </a>
             </li>
           
-            <li class="dd-item " data-nav-id="/welcome/our-philosophy/">
+            <li class="dd-item active" data-nav-id="/welcome/our-philosophy/">
               <a href="/welcome/our-philosophy/">
                 <span>Our philosophy     </i></span>
               </a>
@@ -215,7 +215,7 @@
       
       
 
-      <li class="dd-item  parent" data-nav-id="/posts/">
+      <li class="dd-item  " data-nav-id="/posts/">
         <a href="/posts/">
           <span>
             
@@ -252,7 +252,7 @@
               </a>
             </li>
           
-            <li class="dd-item active" data-nav-id="/posts/2016-12-30-hello-markdown/">
+            <li class="dd-item " data-nav-id="/posts/2016-12-30-hello-markdown/">
               <a href="/posts/2016-12-30-hello-markdown/">
                 <span>A Plain Markdown Post     </i></span>
               </a>
@@ -297,7 +297,7 @@
                 
                 
               <div id="top-github-link">
-                  <a class="github-link" href="https://github.com/R4All/website/sources/content/posts/2016-12-30-hello-markdown.md" target="blank">
+                  <a class="github-link" href="https://github.com/R4All/website/sources/content/welcome/our-philosophy/index.md" target="blank">
                     <i class="fa fa-code-fork"></i>
                     Edit this page
                   </a>
@@ -311,18 +311,27 @@
                       </a>
                   </span>
                 
+                <span id="toc-menu"><a href=""><i class="fa fa-list-alt"></i></a></span>
+                
                 
                   
                   
                   
                     
                     
-                <a href="/posts/" itemprop="url"><span itemprop="title">Posts</span></a> <i class="fa fa-angle-right"></i>
+                <a href="/welcome/" itemprop="url"><span itemprop="title">Welcome</span></a> <i class="fa fa-angle-right"></i>
                     
                   
                 
-                <span itemprop="title"> A Plain Markdown Post</span>
+                <span itemprop="title"> Our philosophy</span>
               </div>
+              
+                  <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
               
             </div>
 
@@ -330,39 +339,18 @@
             
               <div id="body-inner">
                 
-                <h1>A Plain Markdown Post</h1>
+                <h1>Our philosophy</h1>
                 
 
-<p>This is a post written in plain Markdown (<code>*.md</code>) instead of R Markdown (<code>*.Rmd</code>). The major differences are:</p>
+<p>For the uninitiated, R has a rather steep learning curve. We’ve developed a functional, example based approach to boosting you up the steepest part of the curve. We also focus on teaching you how to use R in a way that maximises your efficiency, productivity, and sanity. We start with that often elusive step of how to get your data into R…..</p>
 
-<ol>
-<li>You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (<code>```{r}</code>);</li>
-<li>A plain Markdown post is rendered through <a href="https://gohugo.io/overview/configuration/">Blackfriday</a>, and an R Markdown document is compiled by <a href="http://rmarkdown.rstudio.com"><strong>rmarkdown</strong></a> and <a href="http://pandoc.org">Pandoc</a>.</li>
-</ol>
+<p>We pay special attention to equipping you to learn. We equip you with a solid foundation of skills, knowledge, and experience so that you can can acquire new R skills as and when you need them.</p>
 
-<p>There are many differences in syntax between Blackfriday&rsquo;s Markdown and Pandoc&rsquo;s Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:</p>
+<p>The core functional portion of our courses is a module on importing data, exploring data and visualising data. This module provides the foundation on which we build all other components and provides a consistent approach to all methods in R.</p>
 
-<ul class="task-list">
-<li><input type="checkbox" checked disabled class="task-list-item"> Write an R package.</li>
-<li><input type="checkbox" disabled class="task-list-item"> Write a book.</li>
-<li><input type="checkbox" disabled class="task-list-item"> &hellip;</li>
-<li><input type="checkbox" disabled class="task-list-item"> Profit!</li>
-</ul>
+<p>We use informative, interactive lectures with directed and self-directed practicals.</p>
 
-<p>Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (<a href="https://github.com/yihui/hugo-lithium-theme">hugo-lithium-theme</a>) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: <code>`$ $`</code>; display style: <code>`$$ $$`</code>), e.g., <code>$S_n = \sum_{i=1}^n X_i$</code>.<sup class="footnote-ref" id="fnref:This-is-because"><a rel="footnote" href="#fn:This-is-because">1</a></sup> For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.</p>
-
-<p>When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the <code>rmd</code> argument of the function <code>blogdown::new_post()</code>, e.g.</p>
-
-<pre><code class="language-r">blogdown::new_post(&quot;Post Title&quot;, rmd = FALSE)
-</code></pre>
-<div class="footnotes">
-
-<hr />
-
-<ol>
-<li id="fn:This-is-because">This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., <code>\$50 and $100</code> renders &ldquo;\$50 and $100&rdquo;. <a class="footnote-return" href="#fnref:This-is-because"><sup>[return]</sup></a></li>
-</ol>
-</div>
+<p>We are also a bit geeky and love to talk about R after work (at the pub, etc.)!</p>
 
 
       
@@ -438,28 +426,28 @@
           
         
           
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
             
               
-                <a class="nav nav-prev" href="/posts/working-with-dinosaurs/"> <i class="fa fa-chevron-left"></i></a>
+                <a class="nav nav-prev" href="/welcome/who-are-we/"> <i class="fa fa-chevron-left"></i></a>
               
             
             
               
-                <a class="nav nav-next" href="/posts/2015-07-23-r-rmarkdown/" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+                <a class="nav nav-next" href="/posts/" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
               
             
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
           
         
           
