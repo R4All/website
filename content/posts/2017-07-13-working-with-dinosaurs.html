@@ -274,7 +274,7 @@ subset(compensation_br, subset = Fruit &gt; 80, select = Root)</code></pre>
 <p>We adhere to the principle, in base graphics, that the question you are asking and the data you are plotting go hand-in-hand. With the data we are using lets use Fruit as our response variable and Root as the continuous explanatory variable, and Grazing as our categorical explanatory variable. Lets assume that we are looking at Fruit set on apple trees as a function of the grafted root stock width and whether cows have been allowed to graze underneath them or not (reducing competition by eating the grass, of course).</p>
 <p>The <code>plot()</code> function that is at the heart of base graphics can take a formulae as it’s first argument. We always like(d) this. We start with the <em>regression</em> part of the model - <code>Fruit ~ Root</code> where <code>~</code> translates “is a function of…”. Lets also not forget that <code>plot()</code> takes a data argument too.</p>
 <pre class="r"><code>plot(Fruit ~ Root, data = compensation_br)</code></pre>
-<p><img src="/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
+<p><img src="/posts/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-13-1.png" width="672" /></p>
 <p>At this point, and to keep this focused, lets decide on a few things to do to this graph:</p>
 <p>1)Let’s colour the points by the Grazing factor 2)Let’s double the size of the points, and make them filled 3)Lets customise the x- and y-axis labels, changing the words 4)Add a legend in the top left</p>
 <pre class="r"><code>plot(Fruit ~ Root, data = compensation_br, 
@@ -293,7 +293,7 @@ subset(compensation_br, subset = Fruit &gt; 80, select = Root)</code></pre>
 # add the legend, after the graph is made.
 legend(&#39;topleft&#39;, col=c(&#39;brown&#39;,&#39;green&#39;), 
        pch = 19, legend = c(&quot;Grazed&quot;,&quot;Ungrazed&quot;))</code></pre>
-<p><img src="/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
+<p><img src="/posts/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-14-1.png" width="672" /></p>
 </div>
 <div id="the-ggplot2-hipster-might-do-something-like-this." class="section level2">
 <h2>The ggplot2 hipsteR might do something like this.</h2>
@@ -301,7 +301,7 @@ legend(&#39;topleft&#39;, col=c(&#39;brown&#39;,&#39;green&#39;),
 <p>We begin with the foundation layer of the graph. Just the points, axes and labels.</p>
 <pre class="r"><code>ggplot(compensation_tv, aes(x = Root, y = Fruit))+
   geom_point()</code></pre>
-<p><img src="/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
+<p><img src="/posts/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-15-1.png" width="672" /></p>
 <p>If you are not super up2speed with ggplot2:</p>
 <ol style="list-style-type: decimal">
 <li>it always starts with the data frame… that is the first argument</li>
@@ -319,7 +319,7 @@ legend(&#39;topleft&#39;, col=c(&#39;brown&#39;,&#39;green&#39;),
   geom_point(size = 2)+
   xlab(&quot;Root Stock (mm)&quot;) + ylab(&quot;Fruit Harvest (kg)&quot;)+
   theme_bw()</code></pre>
-<p><img src="/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
+<p><img src="/posts/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-16-1.png" width="672" /></p>
 <p>We’ve deliberately not finished, just to show what a few keywords in ggplot2 do.</p>
 <ol style="list-style-type: decimal">
 <li>colour, in the aesthetics, does what <code>col = c('brown','green')[Grazing]</code> does in base graphics, but uses some default colours.</li>
@@ -334,7 +334,7 @@ legend(&#39;topleft&#39;, col=c(&#39;brown&#39;,&#39;green&#39;),
   xlab(&quot;Root Stock (mm)&quot;) + ylab(&quot;Fruit Harvest (kg)&quot;)+
   scale_colour_manual(values = c(Grazed = &#39;brown&#39;, Ungrazed = &#39;green&#39;))+
   theme_bw()</code></pre>
-<p><img src="/post/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
+<p><img src="/posts/2017-07-13-working-with-dinosaurs_files/figure-html/unnamed-chunk-17-1.png" width="672" /></p>
 </div>
 <div id="summary-1" class="section level2">
 <h2>Summary</h2>

@@ -2,106 +2,110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://r4all.github.io/website/posts/</loc>
+    <loc>/courses/</loc>
+  </url>
+  
+  <url>
+    <loc>/the-book/</loc>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/welcome/who-are-we/</loc>
+    <loc>/welcome/who-are-we/</loc>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/welcome/our-philosophy/</loc>
+    <loc>/welcome/our-philosophy/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/posts/hook-your-students/</loc>
+    <loc>/posts/hook-your-students/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/posts/project-or-script/</loc>
+    <loc>/posts/project-or-script/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/posts/geom-col-versus-geom-bar/</loc>
+    <loc>/posts/geom-col-versus-geom-bar/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/posts/working-with-dinosaurs/</loc>
+    <loc>/posts/working-with-dinosaurs/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/posts/2016-12-30-hello-markdown/</loc>
+    <loc>/posts/2016-12-30-hello-markdown/</loc>
     <lastmod>2016-12-30T21:49:57-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/posts/2015-07-23-r-rmarkdown/</loc>
+    <loc>/posts/2015-07-23-r-rmarkdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/posts/2015-01-01-lorem-ipsum/</loc>
+    <loc>/posts/2015-01-01-lorem-ipsum/</loc>
     <lastmod>2015-01-01T13:09:13-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/courses/</loc>
-  </url>
-  
-  <url>
-    <loc>https://r4all.github.io/website/tags/plot/</loc>
+    <loc>/tags/plot/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/categories/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/tags/r-markdown/</loc>
+    <loc>/tags/r-markdown/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/tags/regression/</loc>
+    <loc>/tags/regression/</loc>
     <lastmod>2015-07-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/categories/teaching/</loc>
+    <loc>/categories/teaching/</loc>
     <lastmod>2017-07-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/</loc>
+    <loc>/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://r4all.github.io/website/welcome/</loc>
+    <loc>/welcome/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
   </url>
   
