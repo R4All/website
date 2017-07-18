@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datasets xxx on The R4All Website</title>
+    <link>/the-book/datasets/index.xml</link>
+    <description>Recent content in Datasets xxx on The R4All Website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/the-book/datasets/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
